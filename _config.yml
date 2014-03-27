@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: striped
+theme: landscape
 exclude_generator:
 
 # Markdown
