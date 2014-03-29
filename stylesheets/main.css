@@ -1,0 +1,10 @@
+body {
+    background: #34495e;
+    /* background: #336ca6; */
+    color: #FFF;
+    padding: 50px;
+}
+
+p {
+  font-size: 1.5em;
+}
