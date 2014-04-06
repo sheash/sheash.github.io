@@ -1,1 +1,56 @@
-body{background:#4f6f8f;color:#FFF;margin:0 auto}h1{font-size:2em}p{font-size:1.5em}header{background:#34495e;margin:0 auto;height:200px;position:relative;padding:10px 50px 0 100px}header .logo{float:left;height:200px;width:360px;background:url("../images/logo.png") 0px -194px no-repeat}header .logo:hover{background:url("../images/logo.png") 0px 0px no-repeat}header nav{float:right;margin:100px 7% 0 0}header nav a{text-decoration:none;font-weight:700;color:#FFF;margin:0 0 0 20px;font-size:1.4em}header nav a:hover{color:#4f6f8f}section{padding:50px 100px 0 100px}footer{padding:80px 150px;background:#f6f6f6;height:300px;width:100%;color:#666}
+body {
+  background: #4f6f8f;
+  color: #FFF;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+header {
+  background: #34495e;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+  padding: 10px 50px 0 100px;
+}
+header .logo {
+  float: left;
+  height: 200px;
+  width: 360px;
+  background: url("../images/logo.png") 0px -194px no-repeat;
+}
+header .logo:hover {
+  background: url("../images/logo.png") 0px 0px no-repeat;
+}
+header nav {
+  float: right;
+  margin: 100px 7% 0 0;
+}
+header nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF;
+  margin: 0 0 0 20px;
+  font-size: 1.4em;
+}
+header nav a:hover {
+  color: #4f6f8f;
+}
+
+section {
+  padding: 50px 100px 0 100px;
+}
+
+footer {
+  padding: 80px 150px;
+  background: #f6f6f6;
+  height: 300px;
+  width: 100%;
+  color: #666;
+}
