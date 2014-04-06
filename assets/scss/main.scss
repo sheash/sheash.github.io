@@ -1,0 +1,58 @@
+$bgc: #34495e;
+$bgc-light-1: lighten($bgc, 15%);
+
+body {
+    background: $bgc-light-1;
+    color: #FFF;
+    margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5em;
+}
+header {
+    background: $bgc;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+    padding: 10px 50px 0 100px;
+    .logo {
+        float: left;
+        height: 200px;
+        width: 360px;
+        background: url('../images/logo.png') 0px -194px no-repeat;
+
+    }
+    .logo:hover {
+        background: url('../images/logo.png') 0px 0px no-repeat;
+    }
+    nav {
+        float: right;
+        margin: 100px 7% 0 0;
+        a {
+            text-decoration:none;
+            font-weight: 700;
+            color: #FFF;
+            margin: 0 0 0 20px;
+            font-size: 1.4em;
+        }
+        a:hover {
+            color: $bgc-light-1;
+        }
+    }
+}
+
+section {
+    padding: 50px 100px 0 100px;
+}
+
+footer {
+    padding: 80px 150px;
+    background: #f6f6f6;
+    height: 300px;
+    width: 100%;
+    color: #666;
+}
