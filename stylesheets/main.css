@@ -43,8 +43,12 @@ header nav a:hover {
   color: #4f6f8f;
 }
 
+section:nth-child(even) {
+  background: #222f3d;
+}
+
 section {
-  padding: 50px 100px 0 100px;
+  padding: 50px 100px;
 }
 
 footer {

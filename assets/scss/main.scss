@@ -1,5 +1,6 @@
 $bgc: #34495e;
 $bgc-light-1: lighten($bgc, 15%);
+$bgc-dark-1: darken($bgc, 10%);
 
 body {
     background: $bgc-light-1;
@@ -45,8 +46,12 @@ header {
     }
 }
 
+section:nth-child(even) {
+    background: $bgc-dark-1;
+}
+
 section {
-    padding: 50px 100px 0 100px;
+    padding: 50px 100px;
 }
 
 footer {
