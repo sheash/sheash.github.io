@@ -9,13 +9,13 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 p {
   font-size: 1.5em;
 }
 header {
-    background: $bgc;
+    // background: $bgc;
     margin: 0 auto;
     height: 200px;
     position: relative;
@@ -46,17 +46,13 @@ header {
     }
 }
 
-section:nth-child(even) {
-    background: $bgc-dark-1;
-}
-
 section {
-    padding: 50px 100px;
+    padding: 70px 130px;
 }
 
 footer {
-    padding: 80px 150px;
-    background: #f6f6f6;
-    height: 300px;
-    color: #666;
+    padding: 70px 130px;
+//     background: #f6f6f6;
+//     height: 300px;
+//     color: #666;
 }

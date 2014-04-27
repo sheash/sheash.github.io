@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 p {
@@ -13,7 +13,6 @@ p {
 }
 
 header {
-  background: #34495e;
   margin: 0 auto;
   height: 200px;
   position: relative;
@@ -44,12 +43,9 @@ header nav a:hover {
 }
 
 section {
-  padding: 50px 100px;
+  padding: 70px 130px;
 }
 
 footer {
-  padding: 80px 150px;
-  background: #f6f6f6;
-  height: 300px;
-  color: #666;
+  padding: 70px 130px;
 }
