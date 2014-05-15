@@ -1,0 +1,1 @@
+(function(){var e;e=jQuery,e(document).ready(function(){return e(".fade").slick({dots:!0,infinite:!0,speed:500,fade:!0,slide:"> div",cssEase:"linear"})})}).call(this);
