@@ -17,6 +17,12 @@ header .navbar-brand {
   background: url("../images/logo.png") 0px -124px no-repeat;
   background-size: 100%;
 }
+header p.header-p {
+  font: 16px "Imprima", Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 270px;
+}
 header a {
   color: #FFF;
   font-size: 2.2em;

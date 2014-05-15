@@ -4,3 +4,4 @@ db.json
 .sass-cache
 *.swp
 app/
+_site
