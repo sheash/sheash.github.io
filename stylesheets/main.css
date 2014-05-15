@@ -14,7 +14,7 @@ header .container {
 header .navbar-brand {
   height: 100px;
   width: 250px;
-  background: url("../images/logo.png") 0px -124px no-repeat;
+  background: url("../images/trlogo.png") no-repeat;
   background-size: 100%;
 }
 header p.header-p {
