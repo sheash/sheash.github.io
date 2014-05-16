@@ -1,20 +1,27 @@
-$header: rgb(157, 77, 82);
-$nav: rgb(217, 116, 43);
+$header: #0099cc;
+$nav: #0099cc;
 $bgc: rgb(230, 180, 80);
 $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
 
 body {
-    background: $bgc;
     color: #FFF;
 }
 
 header {
-    background: $header;
+    // background: $header;
+    background: #237dac;
     height: 200px;
     .container {
       position: relative;
       top: 40px;
+    }
+    .menubar {
+        border-radius: 0;
+        // background: #237dac;
+        background: $header;
+        margin: 50px 0;
+        padding: 0 50px;
     }
     .navbar-brand {
         height: 100px;
@@ -24,21 +31,25 @@ header {
     }
     p.header-p {
         font: 16px "Imprima", Helvetica, Arial, sans-serif;
-          position: absolute;
-          bottom: 0;
-          left: 270px;
+        position: absolute;
+        bottom: 0;
+        left: 270px;
+        opacity: 0.6;
     }
-    a {
+    a.navbar-brand {
       color: #FFF;
-      font-size: 2.2em;
-      opacity: 0.85;
+      opacity: 0.9;
     }
     a.navbar-brand:hover {
       opacity: 1;
     }
+    a {
+      color: #FFF;
+      font-size: 1.8em;
+    }
     .navbar-nav > li > a:hover {
       opacity: 1;
-      color: #FFF;
+      color: #056495;
       background-color: transparent;
     }
 }

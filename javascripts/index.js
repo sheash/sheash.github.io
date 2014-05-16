@@ -6,7 +6,8 @@ $(document).ready(function() {
   $('.slider').slick({
     dots: true,
     speed: 500,
-    autoplay: true
+    autoplay: true,
+    arrows: false
   });
   if (!Modernizr.backgroundsize) {
     return $('.navbar-brand').css({

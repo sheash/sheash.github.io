@@ -1,15 +1,20 @@
 body {
-  background: #e6b450;
   color: #FFF;
 }
 
 header {
-  background: #9d4d52;
+  background: #237dac;
   height: 200px;
 }
 header .container {
   position: relative;
   top: 40px;
+}
+header .menubar {
+  border-radius: 0;
+  background: #0099cc;
+  margin: 50px 0;
+  padding: 0 50px;
 }
 header .navbar-brand {
   height: 100px;
@@ -22,18 +27,22 @@ header p.header-p {
   position: absolute;
   bottom: 0;
   left: 270px;
+  opacity: 0.6;
 }
-header a {
+header a.navbar-brand {
   color: #FFF;
-  font-size: 2.2em;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 header a.navbar-brand:hover {
   opacity: 1;
 }
+header a {
+  color: #FFF;
+  font-size: 1.8em;
+}
 header .navbar-nav > li > a:hover {
   opacity: 1;
-  color: #FFF;
+  color: #056495;
   background-color: transparent;
 }
 
