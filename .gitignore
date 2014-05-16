@@ -5,3 +5,4 @@ db.json
 *.swp
 app/
 _site
+Gemfile.lock
