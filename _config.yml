@@ -6,8 +6,8 @@ baseurl: ""
 url: "http://www.viajc.com"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+# markdown: kramdown
+permalink: none
 
 gems:
   - jekyll-sitemap

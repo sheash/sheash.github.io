@@ -1,0 +1,16 @@
+.sidebar {
+  width: 150px;
+}
+
+.products {
+  margin-top: 50px;
+}
+
+.items {
+  float: left;
+  margin: 0 10px;
+}
+.items img {
+  width: 200px;
+  height: 200px;
+}
