@@ -1,21 +1,7 @@
 ---
-layout: default
-title: viajc
-extra_css:
-    - /stylesheets/products.css
-extra_js:
-    - /javascripts/products.js
+layout: products
+title: Products
 ---
-
-<div class="products container">
-    <div class="col-sm-3 sidebar">
-        <ul class="nav nav-stacked">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-        </ul>
-    </div>
-
     <div class="col-sm-10">
         {% for post in site.posts %}
 
@@ -24,5 +10,3 @@ extra_js:
             </div>
         {% endfor %}
     </div>
-
-</div>
