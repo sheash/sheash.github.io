@@ -3,24 +3,17 @@ body {
 }
 
 header {
-  background: #237dac;
-  height: 200px;
+  background: #0099cc;
+  height: 170px;
 }
 header .container {
   position: relative;
   top: 40px;
 }
-header .menubar {
-  border-radius: 0;
-  background: #0099cc;
-  margin: 50px 0;
-  width: 100%;
-}
-header .navbar-toggle {
-  border: 1px solid #FFF;
-}
-header .navbar-toggle .icon-bar {
-  background-color: #FFF;
+header .navbar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 header .navbar-brand {
   height: 100px;
@@ -44,7 +37,7 @@ header a.navbar-brand:hover {
 }
 header a {
   color: #FFF;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 header .navbar-nav > li > a:hover {
   opacity: 1;
@@ -53,12 +46,11 @@ header .navbar-nav > li > a:hover {
 }
 
 .slider {
-  margin: 60px;
+  margin-top: 60px;
 }
 
 .image img {
   margin: auto;
-  height: 600px;
   width: 80%;
 }
 
@@ -66,4 +58,28 @@ header .navbar-nav > li > a:hover {
   color: #9E9E9E;
   text-align: center;
   margin: 50px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 115px;
+  }
+  header .container {
+    top: 0;
+  }
+  header .navbar {
+    position: relative;
+  }
+  header .navbar-toggle {
+    border: 1px solid #FFF;
+  }
+  header .navbar-toggle .icon-bar {
+    background-color: #FFF;
+  }
+  header p.header-p {
+    top: 67px;
+  }
+  header .navbar-nav {
+    background-color: #0099cc;
+  }
 }

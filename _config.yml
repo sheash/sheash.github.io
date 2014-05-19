@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://www.viajc.com"
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 permalink: none
 
 gems:
