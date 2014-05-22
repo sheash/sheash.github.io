@@ -7,14 +7,12 @@
 }
 .items {
     float: left;
-    margin: 0 10px;
+    margin: 10px;
     img {
-        width: 200px;
-        height: 200px;
+        width: 280px;
     }
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-
     background-color: #FFF;
 }

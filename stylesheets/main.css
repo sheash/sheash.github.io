@@ -83,3 +83,18 @@ header .navbar-nav > li > a:hover {
     background-color: #0099cc;
   }
 }
+.about {
+  padding-top: 40px;
+}
+.about h2 {
+  background: #237dac;
+  width: 150px;
+  text-align: center;
+}
+.about img {
+  width: 100%;
+  opacity: 0.85;
+}
+.about p {
+  color: #4C4C4C;
+}

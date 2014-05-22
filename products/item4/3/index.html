@@ -1,0 +1,13 @@
+---
+layout: products
+title: item4
+categories: products
+images:
+  - 3(3).jpg
+---
+{% for image in page.images %}
+<div class="item">
+    <img class="img-rounded img-responsive" src="/images/danzhi/{{ image }}" alt="Responsive image">
+</div>
+{% endfor %}
+

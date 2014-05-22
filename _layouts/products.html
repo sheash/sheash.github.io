@@ -2,16 +2,26 @@
 layout: default
 extra_css:
     - /stylesheets/products.css
+extra_js:
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+  - 6.jpg
+  - 7.jpg
+  - 8.jpg
 ---
 
 <div class="products container">
     <div class="col-sm-3 sidebar">
         <ul class="nav nav-stacked">
             <li><a href="/products/item1.html">Item 1</a></li>
-            <li><a href="/products/item2.html">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-            <li><a href="#">Item 4</a></li>
-            <li><a href="#">Item 5</a></li>
+            <li><a href="/products/item2">Item 2</a></li>
+            <li><a href="/products/item3">Item 3</a></li>
+            <li><a href="/products/item4">Item 4</a></li>
+            <li><a href="/products/item5">Item 5</a></li>
             <li><a href="#">Item 6</a></li>
             <li><a href="#">Item 7</a></li>
             <li><a href="#">Item 8</a></li>
@@ -19,8 +29,8 @@ extra_css:
         </ul>
     </div>
 
-    <div class="col-sm-10">
-      {{ content }}
+    <div class="contents col-sm-10">
+        {{ content }}
     </div>
 
 </div>
