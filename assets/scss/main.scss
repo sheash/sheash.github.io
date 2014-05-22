@@ -108,13 +108,13 @@ header {
     }
 }
 
-.404 {
-  h1 {
-    5em;
-  }
-  p {
-    3em;
-  }
+.pg-404 {
   color: $header-darken;
   font: 16px "Imprima", Helvetica, Arial, sans-serif;
+  h1 {
+    font-size: 5em;
+  }
+  p {
+    font-size: 3em;
+  }
 }

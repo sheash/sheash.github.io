@@ -98,3 +98,14 @@ header .navbar-nav > li > a:hover {
 .about p {
   color: #4C4C4C;
 }
+
+.pg-404 {
+  color: #237dac;
+  font: 16px "Imprima", Helvetica, Arial, sans-serif;
+}
+.pg-404 h1 {
+  font-size: 5em;
+}
+.pg-404 p {
+  font-size: 3em;
+}
