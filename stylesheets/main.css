@@ -104,8 +104,8 @@ header .navbar-nav > li > a:hover {
   font: 16px "Imprima", Helvetica, Arial, sans-serif;
 }
 .pg-404 h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
-.pg-404 p {
+.pg-404 a {
   font-size: 3em;
 }
