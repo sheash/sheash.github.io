@@ -1,5 +1,5 @@
 $header: #0099cc;
-$nav: #0099cc;
+$header-darken: #237dac;
 $bgc: rgb(230, 180, 80);
 $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
@@ -95,7 +95,7 @@ header {
 .about {
     padding-top: 40px;
     h2 {
-        background: #237dac;
+        background: $header-darken;
         width: 150px;
         text-align: center;
     }
@@ -106,4 +106,15 @@ header {
     p {
         color: #4C4C4C;
     }
+}
+
+.404 {
+  h1 {
+    5em;
+  }
+  p {
+    3em;
+  }
+  color: $header-darken;
+  font: 16px "Imprima", Helvetica, Arial, sans-serif;
 }
