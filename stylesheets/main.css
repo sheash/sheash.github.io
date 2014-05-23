@@ -1,14 +1,15 @@
 body {
+  background: #f1f4f9;
   color: #FFF;
 }
 
 header {
   background: #0099cc;
-  height: 170px;
+  height: 130px;
 }
 header .container {
   position: relative;
-  top: 40px;
+  top: 15px;
 }
 header .navbar {
   position: absolute;
@@ -84,7 +85,14 @@ header .navbar-nav > li > a:hover {
   }
 }
 .about {
-  padding-top: 40px;
+  background-color: #FFF;
+  padding: 40px 0 50px 0;
+}
+.about .about-content {
+  padding-left: 100px;
+}
+.about .col-sm-6 {
+  margin-top: -20px;
 }
 .about h2 {
   background: #237dac;

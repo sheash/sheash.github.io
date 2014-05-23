@@ -5,15 +5,16 @@ $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
 
 body {
+    background: #f1f4f9;
     color: #FFF;
 }
 
 header {
     background: $header;
-    height: 170px;
+    height: 130px;
     .container {
       position: relative;
-      top: 40px;
+      top: 15px;
     }
     .navbar {
         position: absolute;
@@ -93,7 +94,14 @@ header {
 }
 
 .about {
-    padding-top: 40px;
+    background-color: #FFF;
+    padding: 40px 0 50px 0;
+    .about-content {
+        padding-left: 100px;
+    }
+    .col-sm-6 {
+        margin-top: -20px;
+    }
     h2 {
         background: $header-darken;
         width: 150px;
