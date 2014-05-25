@@ -13,6 +13,9 @@
 .items img {
   width: 280px;
 }
+.items img:hover {
+  opacity: 0.8;
+}
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #f1f4f9;

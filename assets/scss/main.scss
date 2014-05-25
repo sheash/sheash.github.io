@@ -14,7 +14,7 @@ header {
     height: 130px;
     .container {
       position: relative;
-      top: 15px;
+      top: 28px;
     }
     .navbar {
         position: absolute;
@@ -24,27 +24,27 @@ header {
 
     .navbar-brand {
         height: 100px;
-        width: 250px;
+        width: 20%;
         background: url('../images/trlogo.png') no-repeat;
-        background-size: 100%;
+        background-size: 85%;
     }
     p.header-p {
         font: 16px "Imprima", Helvetica, Arial, sans-serif;
         position: absolute;
-        bottom: 0;
-        left: 270px;
+        bottom: 22px;
+        left: 210px;
         opacity: 0.6;
     }
     a.navbar-brand {
       color: #FFF;
-      opacity: 0.9;
+      opacity: 0.98;
     }
     a.navbar-brand:hover {
       opacity: 1;
     }
     a {
       color: #FFF;
-      font-size: 1.5em;
+      font-size: 1.3em;
     }
     .navbar-nav > li > a:hover {
       opacity: 1;
@@ -112,7 +112,7 @@ header {
         opacity: 0.85;
     }
     p {
-        color: #4C4C4C;
+        color: #333;
     }
 }
 
