@@ -1,10 +1,8 @@
 body {
-  background: #f1f4f9;
-  color: #FFF;
+  color: #aaaaaa;
 }
 
 header {
-  background: #0099cc;
   height: 130px;
 }
 header .container {
@@ -19,7 +17,7 @@ header .navbar {
 header .navbar-brand {
   height: 100px;
   width: 20%;
-  background: url("../images/trlogo.png") no-repeat;
+  background: url("../images/color-logo.png") no-repeat;
   background-size: 85%;
 }
 header p.header-p {
@@ -30,14 +28,13 @@ header p.header-p {
   opacity: 0.6;
 }
 header a.navbar-brand {
-  color: #FFF;
-  opacity: 0.98;
+  color: #aaaaaa;
 }
 header a.navbar-brand:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 header a {
-  color: #FFF;
+  color: #aaaaaa;
   font-size: 1.3em;
 }
 header .navbar-nav > li > a:hover {
@@ -47,7 +44,8 @@ header .navbar-nav > li > a:hover {
 }
 
 .slider {
-  margin-top: 60px;
+  padding: 30px;
+  background-color: whitesmoke;
 }
 
 .image img {
@@ -80,31 +78,23 @@ header .navbar-nav > li > a:hover {
   header p.header-p {
     top: 67px;
   }
-  header .navbar-nav {
-    background-color: #0099cc;
-  }
 }
 .about {
   background-color: #FFF;
-  padding: 40px 0 50px 0;
+  padding: 20px 0;
 }
 .about .about-content {
   padding-left: 100px;
 }
 .about .col-sm-6 {
-  margin-top: -20px;
-}
-.about h2 {
-  background: #237dac;
-  width: 150px;
-  text-align: center;
+  background-color: whitesmoke;
 }
 .about img {
   width: 100%;
   opacity: 0.85;
 }
 .about p {
-  color: #333;
+  color: #333332;
 }
 
 .pg-404 {

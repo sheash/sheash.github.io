@@ -1,9 +1,15 @@
 .sidebar {
-  width: 150px;
+  width: 165px;
+}
+.sidebar .nav > li > a {
+  color: #aaaaaa;
+}
+.sidebar .nav > li > a:hover {
+  color: #eee;
 }
 
 .products {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .items {
@@ -18,5 +24,5 @@
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-  background-color: #f1f4f9;
+  background-color: #FFF;
 }

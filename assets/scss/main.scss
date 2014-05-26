@@ -5,12 +5,12 @@ $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
 
 body {
-    background: #f1f4f9;
-    color: #FFF;
+    // background: #f1f4f9;
+    color: #aaaaaa;
 }
 
 header {
-    background: $header;
+    // background: $header;
     height: 130px;
     .container {
       position: relative;
@@ -25,7 +25,7 @@ header {
     .navbar-brand {
         height: 100px;
         width: 20%;
-        background: url('../images/trlogo.png') no-repeat;
+        background: url('../images/color-logo.png') no-repeat;
         background-size: 85%;
     }
     p.header-p {
@@ -36,14 +36,14 @@ header {
         opacity: 0.6;
     }
     a.navbar-brand {
-      color: #FFF;
-      opacity: 0.98;
+      color: #aaaaaa;
+      // opacity: 0.5;
     }
     a.navbar-brand:hover {
-      opacity: 1;
+      opacity: 0.8;
     }
     a {
-      color: #FFF;
+      color: #aaaaaa;
       font-size: 1.3em;
     }
     .navbar-nav > li > a:hover {
@@ -53,7 +53,9 @@ header {
     }
 }
 .slider {
-  margin-top: 60px;
+  // margin-top: 60px;
+  padding: 30px;
+  background-color: whitesmoke;
 }
 
 .image {
@@ -88,31 +90,31 @@ header {
             top: 67px;
         }
         .navbar-nav  {
-            background-color: $header;
+            // background-color: $header;
         }
     }
 }
 
 .about {
     background-color: #FFF;
-    padding: 40px 0 50px 0;
+    padding: 20px 0;
     .about-content {
         padding-left: 100px;
     }
     .col-sm-6 {
-        margin-top: -20px;
+        background-color: whitesmoke;
     }
     h2 {
-        background: $header-darken;
-        width: 150px;
-        text-align: center;
+        // background: $header-darken;
+        // width: 150px;
+        // text-align: center;
     }
     img {
         width: 100%;
         opacity: 0.85;
     }
     p {
-        color: #333;
+        color: #333332;
     }
 }
 
