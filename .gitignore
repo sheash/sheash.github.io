@@ -6,3 +6,4 @@ db.json
 app/
 _site
 Gemfile.lock
+npm-debug.log
