@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var coffee = require('gulp-coffee');
 var sass = require('gulp-ruby-sass');
 var uglify = require('gulp-uglify');
+var imagemin = require('gulp-imagemin');
 var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
@@ -24,9 +25,16 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('javascripts/'));
 });
 
+gulp.task('images', function() {
+  return gulp.src('imgs/**/*')
+    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+    .pipe(gulp.dest('/images'))
+    .pipe(notify({ message: 'Images task complete' }));
+});
+
 gulp.task('watch', function() {
   gulp.watch(paths.scripts, ['scripts']);
   gulp.watch(paths.css, ['scss']);
 });
 
-gulp.task('default', ['scripts', 'scss', 'watch']);
+gulp.task('default', ['scripts', 'scss', 'watch', 'images']);
