@@ -34,12 +34,12 @@ header a.navbar-brand:hover {
   opacity: 0.8;
 }
 header a {
-  color: #aaaaaa;
+  color: #181818;
   font-size: 1.3em;
 }
 header .navbar-nav > li > a:hover {
   opacity: 1;
-  color: #056495;
+  color: #16a6b6;
   background-color: transparent;
 }
 
@@ -106,4 +106,9 @@ header .navbar-nav > li > a:hover {
 }
 .pg-404 a {
   font-size: 3em;
+}
+
+.contact p {
+  color: #6b6b6b;
+  font-size: 1.3em;
 }

@@ -26,3 +26,10 @@
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #FFF;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}

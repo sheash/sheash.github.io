@@ -37,23 +37,21 @@ header {
     }
     a.navbar-brand {
       color: #aaaaaa;
-      // opacity: 0.5;
     }
     a.navbar-brand:hover {
       opacity: 0.8;
     }
     a {
-      color: #aaaaaa;
+      color: #181818;
       font-size: 1.3em;
     }
     .navbar-nav > li > a:hover {
       opacity: 1;
-      color: #056495;
+      color: #16a6b6;
       background-color: transparent;
     }
 }
 .slider {
-  // margin-top: 60px;
   padding: 30px;
   background-color: whitesmoke;
 }
@@ -104,11 +102,6 @@ header {
     .col-sm-6 {
         background-color: whitesmoke;
     }
-    h2 {
-        // background: $header-darken;
-        // width: 150px;
-        // text-align: center;
-    }
     img {
         width: 100%;
         opacity: 0.85;
@@ -127,4 +120,11 @@ header {
   a {
     font-size: 3em;
   }
+}
+
+.contact {
+    p {
+        color: #6b6b6b;
+        font-size: 1.3em;
+    }
 }
