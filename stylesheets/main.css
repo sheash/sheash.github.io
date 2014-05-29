@@ -17,15 +17,13 @@ header .navbar {
 header .navbar-brand {
   height: 100px;
   width: 20%;
-  background: url("../images/color-logo.png") no-repeat;
+  background: url("/images/color-logo.png") no-repeat;
   background-size: 85%;
 }
-header p.header-p {
-  font: 16px "Imprima", Helvetica, Arial, sans-serif;
-  position: absolute;
-  bottom: 22px;
-  left: 210px;
-  opacity: 0.6;
+header .header-p {
+  background: url("/images/js.jpg") no-repeat;
+  height: 50px;
+  margin: 20px 200px;
 }
 header a.navbar-brand {
   color: #aaaaaa;
@@ -45,7 +43,6 @@ header .navbar-nav > li > a:hover {
 
 .slider {
   padding: 30px;
-  background-color: whitesmoke;
 }
 
 .image img {

@@ -5,7 +5,6 @@ $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
 
 body {
-    // background: #f1f4f9;
     color: #aaaaaa;
 }
 
@@ -25,15 +24,13 @@ header {
     .navbar-brand {
         height: 100px;
         width: 20%;
-        background: url('../images/color-logo.png') no-repeat;
+        background: url('/images/color-logo.png') no-repeat;
         background-size: 85%;
     }
-    p.header-p {
-        font: 16px "Imprima", Helvetica, Arial, sans-serif;
-        position: absolute;
-        bottom: 22px;
-        left: 210px;
-        opacity: 0.6;
+    .header-p {
+        background: url('/images/js.jpg') no-repeat;
+        height: 50px;
+        margin: 20px 200px;
     }
     a.navbar-brand {
       color: #aaaaaa;
@@ -53,7 +50,7 @@ header {
 }
 .slider {
   padding: 30px;
-  background-color: whitesmoke;
+  // background-color: whitesmoke;
 }
 
 .image {
