@@ -17,7 +17,8 @@
   margin: 10px;
 }
 .items img {
-  width: 280px;
+  width: auto;
+  max-width: 280px;
 }
 .items img:hover {
   opacity: 0.8;

@@ -15,7 +15,9 @@
     float: left;
     margin: 10px;
     img {
-        width: 280px;
+        // height: 100px;
+        width: auto;
+        max-width: 280px;
     }
     img:hover {
         opacity: 0.8;

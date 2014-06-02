@@ -9,16 +9,14 @@ header .container {
   position: relative;
   top: 28px;
 }
-header .navbar {
-  position: absolute;
-  top: 20px;
-  right: 0;
+header .navbar-brand img {
+  width: 180px;
+  margin: -10px 0;
 }
-header .navbar-brand {
-  height: 100px;
-  width: 20%;
-  background: url("/images/color-logo.png") no-repeat;
-  background-size: 85%;
+header .navbar-collapse {
+  position: absolute;
+  right: 0;
+  top: 20px;
 }
 header .header-p {
   background: url("/images/js.jpg") no-repeat;
@@ -56,26 +54,6 @@ header .navbar-nav > li > a:hover {
   margin: 50px 0 0 0;
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 115px;
-  }
-  header .container {
-    top: 0;
-  }
-  header .navbar {
-    position: relative;
-  }
-  header .navbar-toggle {
-    border: 1px solid #FFF;
-  }
-  header .navbar-toggle .icon-bar {
-    background-color: #FFF;
-  }
-  header p.header-p {
-    top: 67px;
-  }
-}
 .about {
   background-color: #FFF;
   padding: 20px 0;
@@ -108,4 +86,41 @@ header .navbar-nav > li > a:hover {
 .contact p {
   color: #6b6b6b;
   font-size: 1.3em;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 115px;
+  }
+  header .navbar-toggle .icon-bar {
+    width: 25px;
+    height: 4px;
+    background-color: #000;
+  }
+  header .navbar-header {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  header .navbar-collapse {
+    z-index: 99;
+    width: 100%;
+    margin-top: 50px;
+    background-color: whitesmoke;
+  }
+  header .container-fluid > .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .slider {
+    z-index: -1;
+    padding: 30px;
+  }
+
+  .about {
+    padding: 0;
+  }
+  .about .about-content {
+    padding-left: 0;
+  }
 }
