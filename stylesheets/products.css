@@ -46,3 +46,13 @@
   height: 500px;
   width: 500px;
 }
+
+.to-top {
+  background-image: url("/images/top.png");
+  position: fixed;
+  cursor: pointer;
+  right: 30px;
+  bottom: 30px;
+  height: 64px;
+  width: 64px;
+}
