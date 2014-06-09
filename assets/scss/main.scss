@@ -26,9 +26,10 @@ header {
         top: 20px;
     }
     .header-p {
-        background: url('/images/js.jpg') no-repeat;
-        height: 50px;
-        margin: 20px 200px;
+        img {
+            width: 150px;
+            margin: 42px 0;
+        }
     }
     a.navbar-brand {
       color: #aaaaaa;
@@ -93,9 +94,21 @@ header {
 }
 
 .contact {
+    max-width: 780px;
+    padding: 50px 0;
+    .text {
+        padding-top: 70px;
+    }
+    h1 {
+        font-size: 50px;
+    }
     p {
         color: #6b6b6b;
-        font-size: 1.3em;
+        font-size: 1.2em;
+    }
+    .contact-info {
+        width: 380px;
+        float: left;
     }
 }
 

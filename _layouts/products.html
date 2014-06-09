@@ -15,7 +15,13 @@ images:
   - 8.jpg
 ---
 <div class="products container">
-    <div class="col-sm-3 sidebar">
+    <div class="products-nav">
+      <a href="/products">Products</a>
+      <p>></p>
+      {{page.nav}}
+    </div>
+
+    <div class="col-sm-2 sidebar">
         <ul class="nav nav-stacked">
             <li><a href="/products/item1.html">JC exclusive</a></li>
             <li><a href="#">Plastic ball pen</a></li>
@@ -28,9 +34,7 @@ images:
             <li><a href="#">Novelty pen</a></li>
         </ul>
     </div>
-
-    <div class="contents col-sm-10">
-        {{ content }}
-    </div>
-
+      <div class="contents col-sm-10">
+          {{ content }}
+      </div>
 </div>

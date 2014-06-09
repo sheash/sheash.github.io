@@ -18,10 +18,9 @@ header .navbar-collapse {
   right: 0;
   top: 20px;
 }
-header .header-p {
-  background: url("/images/js.jpg") no-repeat;
-  height: 50px;
-  margin: 20px 200px;
+header .header-p img {
+  width: 150px;
+  margin: 42px 0;
 }
 header a.navbar-brand {
   color: #aaaaaa;
@@ -83,9 +82,23 @@ header .navbar-nav > li > a:hover {
   font-size: 3em;
 }
 
+.contact {
+  max-width: 780px;
+  padding: 50px 0;
+}
+.contact .text {
+  padding-top: 70px;
+}
+.contact h1 {
+  font-size: 50px;
+}
 .contact p {
   color: #6b6b6b;
-  font-size: 1.3em;
+  font-size: 1.2em;
+}
+.contact .contact-info {
+  width: 380px;
+  float: left;
 }
 
 @media (max-width: 768px) {

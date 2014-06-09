@@ -1,3 +1,10 @@
+.products-nav {
+  margin: 10px 30px;
+}
+.products-nav p {
+  display: inline;
+}
+
 .sidebar {
   width: 165px;
 }
@@ -13,6 +20,7 @@
 }
 
 .items {
+  width: 280px;
   float: left;
   margin: 10px;
 }
@@ -31,6 +39,10 @@
 .sticky {
   position: fixed;
   top: 0;
-  z-index: 100;
   border-top: 0;
+}
+
+.item img {
+  height: 500px;
+  width: 500px;
 }

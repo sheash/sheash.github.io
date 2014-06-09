@@ -3,11 +3,22 @@ layout: products
 title: item4
 categories: products
 images:
-  - 1(2).jpg
+  - 1_d.jpg
+nav:
+    <a href="/products/item1.html">JC exclusive</a>
+    <p>></p>
+    <a href="/products/item4/1/">Animal JC520</a>
 ---
-{% for image in page.images %}
-<div class="item">
-    <img class="img-rounded img-responsive" src="/images/danzhi/{{ image }}" alt="Responsive image">
-</div>
-{% endfor %}
 
+<div class="item">
+{% for image in page.images %}
+    <img class="img-rounded img-responsive" src="/images/pic/{{ image }}" alt="Responsive image">
+{% endfor %}
+<div>
+    <li>New stylus ball pen in caterpillar shape. </li>
+    <li>The black rubber at the bottom of the pen functions as the screen touch device. </li>
+    <li>Smooth and slim barrel guarantee a pleasant grip. </li>
+    <li>Germany ink, environmentally friendly material. </li>
+    <li>Black ink if no further requirements.</li>
+</div>
+</div>
