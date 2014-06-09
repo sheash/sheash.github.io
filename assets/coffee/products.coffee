@@ -7,9 +7,11 @@ $(document).ready ->
     scrollTop = $(window).scrollTop()
     if scrollTop > stickyNavTop
       $(".sidebar .nav").addClass "sticky"
-      toTop.fadeIn()
     else
       $(".sidebar .nav").removeClass "sticky"
+    if scrollTop > 500
+      toTop.fadeIn()
+    else 
       toTop.fadeOut()
     return
 
