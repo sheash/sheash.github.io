@@ -1,9 +1,11 @@
+$link-color: #16a6b6;
+
 .products-nav {
   p {
     display: inline;
   }
   a {
-    color: #16a6b6;
+    color: $link-color;
     text-decoration:none;
   }
   margin: 10px 30px;
@@ -47,12 +49,24 @@
 }
 
 .item {
+    margin-left: 75px;
   img {
     height: 500px;
     width: 500px;
   }
+    p {
+        color: #181818;
+        font-weight: bold;
+    }
+    .p1 {
+        font-size: 1.4em;
+    }
+    .detail-info {
+        li {
+            font-size: 1.5em;
+        }
+    }
 }
-
 .to-top {
   font-size: 3em;
   position: fixed;

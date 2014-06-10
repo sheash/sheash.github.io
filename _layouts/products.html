@@ -16,9 +16,7 @@ images:
 ---
 <div class="products container">
     <div class="products-nav">
-      <a href="/products">Products</a>
-      <p>></p>
-      {{page.nav}}
+      {% if page.nav %} <a href="/products">Products</a> <p>></p>{{ page.nav }} {% endif %}
     </div>
 
     <div class="col-sm-2 sidebar">

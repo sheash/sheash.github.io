@@ -1,18 +1,26 @@
 ---
 layout: products
-title: item4
-categories: products
+title: Products
+nav:
+    <a href="/products/jc-exclusive/">JC exclusive</a>
 images:
-  - 1
+  - ../products/jc-exclusive/animal-jc520
   - 2
   - 3
   - 4
+  - 5
+  - 7
+  - 8
+  - 15
+  - 16
+  - 17
+  - 18
 ---
 
 {% for image in page.images %}
     <div class="items">
-        <a href="/products/item4/{{ image }}">
-        <img class="img-rounded img-responsive" src="/images/danzhi/{{ image }}.jpg" alt="Responsive image">
+        <a href="/jc-exclusive/{{ image }}.html">
+        <img class="img-responsive" src="/images/pic/{{ image }}.jpg" alt="Responsive image">
         </a>
     </div>
 {% endfor %}

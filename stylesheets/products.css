@@ -46,9 +46,22 @@
   border-top: 0;
 }
 
+.item {
+  margin-left: 75px;
+}
 .item img {
   height: 500px;
   width: 500px;
+}
+.item p {
+  color: #181818;
+  font-weight: bold;
+}
+.item .p1 {
+  font-size: 1.4em;
+}
+.item .detail-info li {
+  font-size: 1.5em;
 }
 
 .to-top {
