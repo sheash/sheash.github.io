@@ -2,6 +2,10 @@
   p {
     display: inline;
   }
+  a {
+    color: #16a6b6;
+    text-decoration:none;
+  }
   margin: 10px 30px;
 }
 
@@ -50,11 +54,9 @@
 }
 
 .to-top {
-  background-image: url('/images/top.png');
+  font-size: 3em;
   position: fixed;
   cursor: pointer;
   right: 30px;
   bottom: 30px;
-  height: 64px;
-  width: 64px;
 }

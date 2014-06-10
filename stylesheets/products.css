@@ -4,6 +4,10 @@
 .products-nav p {
   display: inline;
 }
+.products-nav a {
+  color: #16a6b6;
+  text-decoration: none;
+}
 
 .sidebar {
   width: 165px;
@@ -48,11 +52,9 @@
 }
 
 .to-top {
-  background-image: url("/images/top.png");
+  font-size: 3em;
   position: fixed;
   cursor: pointer;
   right: 30px;
   bottom: 30px;
-  height: 64px;
-  width: 64px;
 }

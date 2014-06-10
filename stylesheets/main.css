@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'fontello';
+  src: url("/css/fonts/fontello.eot?51887701");
+  src: url("/css/fonts/fontello.eot?51887701#iefix") format("embedded-opentype"), url("/css/fonts/fontello.woff?51887701") format("woff"), url("/css/fonts/fontello.ttf?51887701") format("truetype"), url("/css/fonts/fontello.svg?51887701#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
 body {
   color: #aaaaaa;
 }
@@ -82,6 +115,26 @@ header .navbar-nav > li > a:hover {
   font-size: 3em;
 }
 
+.icon-up:before {
+  content: '\e800';
+}
+
+.icon-location:before {
+  content: '\e802';
+}
+
+.icon-fax:before {
+  content: '\e803';
+}
+
+.icon-phone:before {
+  content: '\e804';
+}
+
+.icon-mail:before {
+  content: '\e805';
+}
+
 .contact {
   max-width: 780px;
   padding: 50px 0;
@@ -96,6 +149,9 @@ header .navbar-nav > li > a:hover {
 .contact p {
   color: #6b6b6b;
   font-size: 1.2em;
+}
+.contact a {
+  color: #16a6b6;
 }
 .contact .contact-info {
   width: 380px;
