@@ -90,6 +90,7 @@ header .navbar-nav > li > a:hover {
   padding-top: 70px;
 }
 .contact h1 {
+  font-weight: bold;
   font-size: 50px;
 }
 .contact p {
