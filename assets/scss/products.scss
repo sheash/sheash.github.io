@@ -53,18 +53,19 @@ $link-color: #16a6b6;
     height: 500px;
     width: 500px;
   }
-    p {
-        color: #181818;
-        font-weight: bold;
-    }
-    .p1 {
-        font-size: 1.4em;
-    }
-    .detail-info {
-        li {
-            font-size: 1.5em;
-        }
-    }
+  p {
+      color: #181818;
+      font-weight: bold;
+  }
+  .p1 {
+      font-size: 1.4em;
+  }
+  .detail-info {
+      li {
+        list-style-type: none;
+        font-size: 1.5em;
+      }
+  }
 }
 .to-top {
   font-size: 3em;

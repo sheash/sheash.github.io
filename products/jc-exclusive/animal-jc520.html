@@ -1,9 +1,6 @@
 ---
 layout: products
 title: Animal JC520
-categories: products
-images:
-  - 1_d.jpg
 pentitle:
     <p class="p1">Animal JC520</p>
     <p class="p2">JC Exclusive/Stylus Pen</p>
@@ -12,19 +9,19 @@ nav:
     <p>></p>
     <a href="/products/jc-exclusive/animal-jc520/">Animal JC520</a>
 infos:
-    <li>New stylus ball pen in caterpillar shape. </li>
-    <li>The black rubber at the bottom of the pen functions as the screen touch device. </li>
-    <li>Smooth and slim barrel guarantee a pleasant grip. </li>
-    <li>Germany ink, environmentally friendly material. </li>
-    <li>Black ink if no further requirements.</li>
+    - New stylus ball pen in caterpillar shape.
+    - The black rubber at the bottom of the pen functions as the screen touch device.
+    - Smooth and slim barrel guarantee a pleasant grip.
+    - Germany ink, environmentally friendly material.
+    - Black ink if no further requirements.
 ---
 
 <div class="item">
     {{page.pentitle}}
-    {% for image in page.images %}
-    <img class="img-rounded img-responsive" src="/images/pic/{{ image }}" alt="Responsive image">
-    {% endfor %}
+    <img class="img-rounded img-responsive" src="/images/pic/1_d.jpg" alt="Responsive image">
     <div class="detail-info">
-        {{page.infos}}
+      {% for i in page.infos %}
+      <li><i class="icon-star"></i>{{ i }}</li>
+      {% endfor %}
     </div>
 </div>
