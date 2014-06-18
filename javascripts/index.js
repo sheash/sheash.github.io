@@ -4,9 +4,8 @@ $ = jQuery;
 
 $(document).ready(function() {
   return $('.slider').slick({
-    dots: true,
+    dots: false,
     speed: 500,
-    autoplay: true,
-    arrows: false
+    autoplay: true
   });
 });

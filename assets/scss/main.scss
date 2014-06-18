@@ -162,6 +162,15 @@ header {
     }
 }
 
+.news {
+    padding: 25px 0;
+    .posts {
+      li {
+        font-size: 1.4em;
+      }
+    }
+}
+
 @media (max-width: 768px) {
     header{
         height: 115px;
@@ -197,4 +206,16 @@ header {
     }
 }
 
+.slick-prev {
+  left: 100px;
+}
+.slick-next {
+  right: 100px;
+}
+.slick-prev:before {
+  color: #aaaaaa;
+}
+.slick-next:before {
+  color: #aaaaaa;
+}
 
