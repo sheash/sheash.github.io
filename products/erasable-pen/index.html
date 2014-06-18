@@ -1,0 +1,15 @@
+---
+layout: products
+title: Erasable pen
+extra_css:
+extra_js:
+---
+
+{% for img in site.data.products.products.erasable-pen %}
+    <div class="items">
+        <a href="/erasable-pen/{{ image }}.html">
+        <img class="img-responsive" src="/images/products/erasable-pen/{{ img }}.jpg" alt="Responsive image">
+        </a>
+    </div>
+{% endfor %}
+

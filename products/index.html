@@ -1,40 +1,15 @@
 ---
 layout: products
 title: Products
-images:
-  - ../products/jc-exclusive/animal-jc520
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 23
-  - 24
-  - 25
-  - 26
-  - 27
-  - 28
 ---
 
-{% for image in page.images %}
-    <div class="items">
-        <a href="/jc-exclusive/{{ image }}.html">
-        <img class="img-responsive" src="/images/pic/{{ image }}.jpg" alt="Responsive image">
-        </a>
-    </div>
+{% for img in site.data.products.products %}
+    {% for i in img %}
+    <!-- <div class="items"> -->
+    <!--     <a href="/jc-exclusive/{{ image }}.html"> -->
+    <!--         <img class="img-responsive" src="/images/products/{{ i }}/{{ img }}.jpg" alt="Responsive image"> -->
+    <!--     </a> -->
+    <!-- </div> -->
+    {% endfor %}
 {% endfor %}
 

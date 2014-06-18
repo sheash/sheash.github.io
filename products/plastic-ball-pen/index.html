@@ -1,17 +1,13 @@
 ---
 layout: products
-title: item5
-categories: products
-images:
-  - 5.jpg
-  - 6.jpg
-  - 7.jpg
-  - 8.jpg
+title: Plastic ball pen
 ---
 
-{% for image in page.images %}
+{% for img in site.data.products.products.plastic-ball-pen %}
     <div class="items">
-        <img class="img-rounded img-responsive" src="/images/danzhi/{{ image }}" alt="Responsive image">
+        <a href="/erasable-pen/{{ image }}.html">
+        <img class="img-responsive" src="/images/products/plastic-ball-pen/{{ img }}.jpg" alt="Responsive image">
+        </a>
     </div>
 {% endfor %}
 

@@ -5,7 +5,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -136,10 +135,6 @@ header .navbar-nav > li > a:hover {
   content: '\e806';
 }
 
-.icon-qrcode:before {
-  content: '\e807';
-}
-
 .icon-quote-left:before {
   content: '\e808';
 }
@@ -154,6 +149,14 @@ header .navbar-nav > li > a:hover {
 
 .icon-ok:before {
   content: '\e80b';
+}
+
+.icon-circle-empty:before {
+  content: '\e80c';
+}
+
+.icon-circle:before {
+  content: '\e80d';
 }
 
 .contact {

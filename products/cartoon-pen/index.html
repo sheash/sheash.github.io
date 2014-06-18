@@ -1,0 +1,15 @@
+---
+layout: products
+title: Cartoon pen
+nav:
+    <a href="/products/cartoon-pen/">Cartoon Pen</a>
+---
+
+{% for img in site.data.products.products.cartoon-pen %}
+    <div class="items">
+        <a href="/products/cartoon-pen/{{ img }}.html">
+        <img class="img-responsive" src="/images/products/cartoon-pen/jc-{{ img }}.jpg" alt="Responsive image">
+        </a>
+    </div>
+{% endfor %}
+

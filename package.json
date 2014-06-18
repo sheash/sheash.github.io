@@ -4,8 +4,9 @@
   "private": true,
   "devDependencies": {
     "gulp-coffee": "*",
-    "gulp-ruby-sass": "*",
+    "gulp-ruby-sass": "~0.5.0",
     "gulp-uglify": "*",
-    "gulp-autoprefixer": "*"
+    "gulp-autoprefixer": "*",
+    "gulp-imagemin": "*"
   }
 }
