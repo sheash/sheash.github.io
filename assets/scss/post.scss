@@ -92,12 +92,6 @@ h4, h5, h6 {
 }
 
 /* Body text */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 20px;
-}
-
 strong {
   color: #303030;
 }
@@ -283,8 +277,12 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
   width: 950px;
   margin: 0 auto;
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
 }
-
 
 /*
  * Masthead
