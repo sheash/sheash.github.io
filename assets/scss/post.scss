@@ -65,7 +65,6 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
 }
 
 /* Headings */
@@ -99,14 +98,13 @@ p {
   font-size: 20px;
 }
 
-li {
-  font-size: 18px;
-}
-
 strong {
   color: #303030;
 }
 
+.post li {
+  font-size: 18px;
+}
 
 /* Lists */
 ul, ol, dl {
