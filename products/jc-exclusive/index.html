@@ -1,14 +1,14 @@
 ---
 layout: products
-title: Products
+title: JC Exclusive
 nav:
     <a href="/products/jc-exclusive/">JC exclusive</a>
 ---
 
-{% for image in page.images %}
+{% for img in site.data.products.products.jc-exclusive %}
     <div class="items">
-        <a href="/jc-exclusive/{{ image }}.html">
-        <img class="img-responsive" src="/images/pic/{{ image }}.jpg" alt="Responsive image">
+        <a href="/products/jc-exclusive/{{ img }}.html">
+        <img class="img-responsive" src="/images/products/{{ img }}.jpg" alt="Responsive image">
         </a>
     </div>
 {% endfor %}

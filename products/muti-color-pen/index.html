@@ -1,0 +1,15 @@
+---
+layout: products
+title: Muti-color pen
+nav:
+    <a href="/products/muti-color-pen/">Muti-color Pen</a>
+---
+
+{% for img in site.data.products.products.muti-color-pen %}
+    <div class="items">
+        <a href="/products/muti-color-pen/{{ img }}.html">
+        <img class="img-responsive" src="/images/products/{{ img }}.jpg" alt="Responsive image">
+        </a>
+    </div>
+{% endfor %}
+

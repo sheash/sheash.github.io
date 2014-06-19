@@ -1,20 +1,76 @@
 ---
 products:
-    jc-exclusive:
-        - /cartoon/jc-bunny-jc575
-        - /cartoon/jc-doll-jc573
-        - /cartoon/jc-football-jc572
-        - /cartoon/jc-snowman-jc574
     cartoon-pen:
         - bunny-jc575
         - doll-jc573
         - football-jc572
         - snowman-jc574
     plastic-ball-pen:
-        - jc-exclusive-challeneger-jc801
+        - big-pen-jc403
+        - bullet-jc602
+        - challeneger--jc828
+        - challeneger-jc828
+        - challeneger-jc605
+        - challeneger-jc801
+        - challeneger-jc811
+        - dots-jc812
+        - football-jc571
+        - habilis-jc417
+        - hawkeye-jc707
+        - linellae-jc505
+        - trangle-jc8012
         - jcys310
+        - jcys321
+        - jcys323
     erasable-pen: 
-        - jc-exclusive-erasion-jc807
+        - erasion-jc807
+    gel-pen:
+        - jc334
+    novelty-pen:
+        - fingers-jc806
+        - fingers-jc807
+    stylus-pen:
+        - animal-jc417
+        - animal-jc505
+        - animal-jc520
+        - challeneger-jc605
+        - challeneger-jc828
+        - stylus-jc601
+        - swan-stylus-jc702
+    semi-metal-pen:
+        - silver-touch-jc8011
+        - silver-touch-jc8013
+    eco-pen:
+    muti-color-pen:
+    jc-exclusive:
+        - bunny-jc575
+        - doll-jc573
+        - football-jc572
+        - snowman-jc574
+        - big-pen-jc403
+        - bullet-jc602
+        - challeneger--jc828
+        - challeneger-jc828
+        - challeneger-jc605
+        - challeneger-jc801
+        - challeneger-jc811
+        - dots-jc812
+        - football-jc571
+        - habilis-jc417
+        - hawkeye-jc707
+        - linellae-jc505
+        - trangle-jc8012
+        - erasion-jc807
+        - jc334
+        - fingers-jc806
+        - fingers-jc807
+        - animal-jc417
+        - animal-jc505
+        - animal-jc520
+        - challeneger-jc605
+        - challeneger-jc828
+        - stylus-jc601
+        - swan-stylus-jc702
+        - silver-touch-jc8011
+        - silver-touch-jc8013
 
-
-# jc-exclusive-cartoon, pen-bunny-jc575, jc-exclusive-doll-jc573, jc-exclusive-football-jc572, jc-exclusive-snowman-jc574, jc-exclusive-erasion-jc807, jc-exclusive-jc334, jc-exclusive-big pen-jc403, jc-exclusive-bullet-jc602, jc-exclusive-challeneger-jc828, jc-exclusive-challeneger-jc605, jc-exclusive-challeneger-jc801, jc-exclusive-challeneger-jc811, jc-exclusive-challeneger-jc828, jc-exclusive-dots-812, jc-exclusive-football-jc571, jc-exclusive-habilis-jc417, jc-exclusive-hawkeye-jc707, jc-exclusive-linellae-jc505, jc-exclusive-novelty pen-fingers-jc806, jc-exclusive-novelty pen-fingers-jc807, jc-exclusive-swan stylus-jc702, jc-exclusive-trangle-jc8012, jc-exclusive-semi-metal pen-silver touch-jc8011, jc-exclusive-silver touch-jc8013, jc-exclusive-animal-jc417, jc-exclusive-animal-jc505, jc-exclusive-animal-jc520, jc-exclusive-challeneger-jc605, jc-exclusive-challeneger-jc828, jc-exclusive-stylus-jc601, jc-exclusive-swan stylus-jc702
