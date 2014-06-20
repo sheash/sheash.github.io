@@ -3,11 +3,12 @@ layout: default
 extra_css:
     - /stylesheets/products.css
 extra_js:
+    - /javascripts/lib/tooltip.js
     - /javascripts/products.js
 ---
 <div class="products container">
     <div class="products-nav">
-      {% if page.nav %} <a href="/products">Products</a> <p>></p> {{ page.nav }} {% endif %}
+        <a href="/"><i class="icon-home"></i></a> <p>></p> <a href="/products">Products</a> {% if page.nav %} <p>></p> {{ page.nav }} {% endif %}
     </div>
 
     <div class="col-sm-2 sidebar">

@@ -6,6 +6,9 @@ toTop = $('.to-top');
 
 $(document).ready(function() {
   var stickyNav, stickyNavTop;
+  if ($('.items').length !== 0) {
+    $('.items').tooltip();
+  }
   stickyNavTop = $(".sidebar .nav").offset().top;
   stickyNav = function() {
     var scrollTop;
