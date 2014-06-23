@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Erasion -- the revolutionary erasable ballpoint pen for a exceptionly erasion results.
-date:   2014-06-01 21:51:57
+title:  Erasion -- the revolutionary erasable ballpoint pen hehehehehehehehe.
+date:   2014-06-25 08:51:38
 categories: news
 ---
 

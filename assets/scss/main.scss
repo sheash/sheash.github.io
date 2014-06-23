@@ -120,10 +120,16 @@ header {
 }
 
 .news {
+  max-width: 1050px;
   padding: 25px 0;
   .posts {
     li {
+      clear: both;
       font-size: 1.4em;
+      list-style-type: none;
+      p {
+        float: right;
+      }
     }
   }
 }

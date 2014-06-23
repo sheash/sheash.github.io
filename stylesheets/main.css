@@ -108,10 +108,16 @@ header .navbar-nav > li > a:hover {
 }
 
 .news {
+  max-width: 1050px;
   padding: 25px 0;
 }
 .news .posts li {
+  clear: both;
   font-size: 1.4em;
+  list-style-type: none;
+}
+.news .posts li p {
+  float: right;
 }
 
 @media (max-width: 768px) {

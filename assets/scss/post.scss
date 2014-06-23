@@ -399,6 +399,37 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
+.comments-1 {
+  height: 285px;
+}
+
+.comments-2 {
+  height: 220px;
+}
+
+ul.pen-1 {
+  width: 42%;
+  float: left;
+}
+p.pen-1-img {
+  img {
+    width: 45%;
+    float: right;
+  }
+}
+
+ul.pen-2 {
+  width: 50%;
+  float: right;
+}
+p.pen-2-img {
+  img {
+    width: 50%;
+    float: left;
+  }
+}
+
+
 @media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
