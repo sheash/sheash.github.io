@@ -2,7 +2,6 @@ $ = jQuery
 toTop = $('.to-top')
 
 $(document).ready ->
-  $('.items').tooltip() if $('.items').length isnt 0
   stickyNavTop = $(".sidebar .nav").offset().top
   stickyNav = ->
     scrollTop = $(window).scrollTop()

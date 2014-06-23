@@ -318,6 +318,13 @@ tbody tr:nth-child(odd) th {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
+.post {
+  p, li {
+    font-family: 'Monaco','Menlo','Ubuntu Mono','Consolas','source-code-pro',monospace;
+    font-size: 18px;
+  }
+}
+
 .page,
 .post {
   margin-bottom: 4em;
