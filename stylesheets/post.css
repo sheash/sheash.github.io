@@ -323,7 +323,7 @@ tbody tr:nth-child(odd) th {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 .post p, .post li {
-  font-family: 'Open Sans',"Trebuchet MS",Helvetica,sans-serif;
+  font-family: georgia,"times new roman",times,serif;
   font-size: 18px;
 }
 
