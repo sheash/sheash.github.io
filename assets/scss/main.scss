@@ -5,6 +5,9 @@ $bgc-light-1: lighten($bgc, 15%);
 $bgc-dark-1: darken($bgc, 10%);
 $link-color: #16a6b6;
 
+body, html {
+  height: 100%;
+}
 body {
     color: #aaaaaa;
 }
@@ -59,7 +62,7 @@ header {
   }
 }
 
-.site-footer {
+footer {
   color: #9E9E9E;
   text-align: center;
   margin: 50px 0 0 0;
@@ -122,6 +125,7 @@ header {
 .news {
   max-width: 1050px;
   padding: 25px 0;
+  height: 60%;
   .posts {
     li {
       clear: both;

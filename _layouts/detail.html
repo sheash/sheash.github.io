@@ -28,7 +28,7 @@ extra_js:
 
             <div class="item">
                 <p class="p1">{{page.title}}</p>
-                <p class="p2">{{page.catalog_name}}</p>
+                <p class="p2">{{page.catalog_name}}{% if page.jc %} / JC exclusive{% endif %}</p>
                 <img class="img-rounded img-responsive" src="/images/products/{{ page.file }}-d.jpg" alt="Responsive image">
                 <div class="detail-info">
                   {% for i in page.infos %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Metalux Stylus -- all for your choice!
-date:   2014-06-25 08:51:38
+date:   2014-06-29
 categories: news
 ---
 
