@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metalux Stylus - all for your choice!
+title: Metalux Stylus — all for your choice!
 date:   2014-06-29
 categories: news
 ---
