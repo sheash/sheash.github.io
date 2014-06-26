@@ -7,24 +7,31 @@ categories: news
 
 It’s nothing new about stylus pen, but what we are aiming to do is better design, not to sacrifice the good look to the function. Thus, we chose to place the screen touch device on the opposite of the refill. Animal is totally a new creation and the other two are based on the Habilis and Linellae. Smart, classic and new gel pen, all for your choice!
 
-![metalux-1](/images/posts/metalux-stylus-1.jpg)
+<div class="comments-2">
+    <ul class="pen-2">
+        <h2>JC520</h2>
+        <p>ANIMAL</p>
+        <p>New Stylus, stands out.</p>
+        <p>Cute? Elegant? You name it.</p>
+    </ul>
+    <p class="pen-2-img"><img src="/images/posts/metalux-stylus-1.jpg" alt="erasion-2" /></p>
+</div>
 
-Animal JC520---the new stylus ball pen in caterpillar shape.
-The black rubber at the bottom of the pen functions as the screen touch device.     
-Smooth and slim barrel guarantee a pleasant grip.
-Germany ink, environmentally friendly material.
+<div class="comments-2">
+    <ul class="pen-2">
+        <h2>JC505</h2>
+        <p>LINELLAE STYLUS</p>
+        <p>Classic, bestseller.</p>
+    </ul>
+    <p class="pen-2-img"><img src="/images/posts/metalux-stylus-2.jpg" alt="erasion-2" /></p>
+</div>
 
-![metalux-2](/images/posts/metalux-stylus-2.jpg)
-
-Linellae Stylus JC505--- New retractable stylus based on bestseller JC505.
-The black rubber at the top of the cap serves as the screen touch device.
-Smooth line and comfortable grip.
-JC Solution: best sold in set within 5-6 pcs.
-
-![metalux-3](/images/posts/metalux-stylus-3.jpg)
-
-Habilis stylus JC417---this new twist action screen touch pen is only 11cm in length.
-The black rubber at the bottom of the pen functions as the screen touch device.
-Smart look, portable, only 11cm in length.
-Metal ring and clip.
+<div class="comments-2">
+    <ul class="pen-2">
+        <h2>JC417</h2>
+        <p>HABILIS STYLUS</p>
+        <p>Very smart, portable.</p>
+    </ul>
+    <p class="pen-2-img"><img src="/images/posts/metalux-stylus-3.jpg" alt="erasion-2" /></p>
+</div>
 

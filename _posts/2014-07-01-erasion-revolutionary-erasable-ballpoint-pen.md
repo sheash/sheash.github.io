@@ -21,7 +21,6 @@ Jc smells a growing market for erasable pen, we started to develop our Erasion l
 </div>
 
 <div class="comments-2">
-
     <ul class="pen-2">
       <li>This new styling is based on the bestseller Fingers, therefore a experienced manufacturing process is guaranteed.</li>
       <li>Six gestures avaliable.</li>

@@ -140,7 +140,6 @@ footer {
     right: 0;
   }
   header .navbar-collapse {
-    z-index: 99;
     width: 100%;
     margin-top: 50px;
     background-color: whitesmoke;
@@ -150,7 +149,6 @@ footer {
   }
 
   .slider {
-    z-index: -1;
     padding: 30px;
   }
 
