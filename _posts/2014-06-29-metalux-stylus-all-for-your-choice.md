@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metalux Stylus -- all for your choice!
+title: Metalux Stylus —— all for your choice!
 date:   2014-06-29
 categories: news
 ---
@@ -9,7 +9,7 @@ It’s nothing new about stylus pen, but what we are aiming to do is better desi
 
 <div class="comments-2">
     <ul class="pen-2">
-        <h2>JC520</h2>
+        <h1>JC520</h1>
         <p>ANIMAL</p>
         <p>New Stylus, stands out.</p>
         <p>Cute? Elegant? You name it.</p>
@@ -19,7 +19,7 @@ It’s nothing new about stylus pen, but what we are aiming to do is better desi
 
 <div class="comments-2">
     <ul class="pen-2">
-        <h2>JC505</h2>
+        <h1>JC505</h1>
         <p>LINELLAE STYLUS</p>
         <p>Classic, bestseller.</p>
     </ul>
@@ -28,7 +28,7 @@ It’s nothing new about stylus pen, but what we are aiming to do is better desi
 
 <div class="comments-2">
     <ul class="pen-2">
-        <h2>JC417</h2>
+        <h1>JC417</h1>
         <p>HABILIS STYLUS</p>
         <p>Very smart, portable.</p>
     </ul>
