@@ -124,6 +124,9 @@ footer {
 .news .posts li p {
   float: right;
 }
+.news .posts a {
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   header {
