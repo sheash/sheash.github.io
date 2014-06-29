@@ -48,7 +48,7 @@ $link-color: #16a6b6;
 }
 
 .item {
-    margin-left: 75px;
+  margin-left: 75px;
   img {
     margin: 0 auto;
     height: 500px;
@@ -78,4 +78,17 @@ $link-color: #16a6b6;
   cursor: pointer;
   right: 30px;
   bottom: 30px;
+}
+
+@media only screen 
+and (max-width : 799px) {
+  div.products.container {
+    padding-left: 0;
+  }
+  .sidebar {
+    display: none;
+  }
+  .item {
+    margin-left: 0;
+  }
 }

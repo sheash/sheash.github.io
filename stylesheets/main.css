@@ -128,40 +128,6 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 115px;
-  }
-  header .navbar-toggle .icon-bar {
-    width: 25px;
-    height: 4px;
-    background-color: #000;
-  }
-  header .navbar-header {
-    position: absolute;
-    top: 20px;
-    right: 0;
-  }
-  header .navbar-collapse {
-    width: 100%;
-    margin-top: 50px;
-    background-color: whitesmoke;
-  }
-  header .container-fluid > .navbar-collapse {
-    margin-right: 0;
-  }
-
-  .slider {
-    padding: 30px;
-  }
-
-  .about {
-    padding: 0;
-  }
-  .about .about-content {
-    padding-left: 0;
-  }
-}
 .slick-prev {
   left: 100px;
 }
@@ -176,4 +142,59 @@ footer {
 
 .slick-next:before {
   color: #aaaaaa;
+}
+
+@media only screen and (max-width: 799px) {
+  header {
+    height: 115px;
+  }
+  header .navbar-toggle .icon-bar {
+    width: 25px;
+    height: 4px;
+    background-color: #000;
+  }
+  header .header-p {
+    display: none;
+  }
+  header .navbar-header {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  header .navbar-collapse {
+    z-index: 99;
+    width: 100%;
+    margin-top: 65px;
+    background-color: whitesmoke;
+    opacity: 0.85;
+  }
+  header .container-fluid > .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .slider {
+    z-index: -1;
+    padding: 30px;
+  }
+
+  .about {
+    padding: 0;
+  }
+  .about .about-content {
+    padding-left: 0;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact .contact-info {
+    width: auto;
+  }
+
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
 }

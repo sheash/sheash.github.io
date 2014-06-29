@@ -76,3 +76,17 @@
   right: 30px;
   bottom: 30px;
 }
+
+@media only screen and (max-width: 799px) {
+  div.products.container {
+    padding-left: 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .item {
+    margin-left: 0;
+  }
+}
