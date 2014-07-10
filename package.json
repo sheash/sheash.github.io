@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "gulp-coffee": "*",
-    "gulp-ruby-sass": "~0.5.0",
-    "gulp-uglify": "*",
     "gulp-autoprefixer": "*",
-    "gulp-imagemin": "*"
+    "gulp-coffee": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "^0.6.1",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-uglify": "*"
   }
 }
