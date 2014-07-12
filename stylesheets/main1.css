@@ -1,0 +1,159 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #aaaaaa;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background: #ff6633;
+}
+header nav {
+  height: 70px;
+  margin: 0 auto;
+  width: 80%;
+}
+header nav .logo {
+  float: left;
+  height: 65px;
+  width: 180px;
+  background: url("/images/trlogo-s.png") no-repeat center;
+}
+header nav ul {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+header nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+header a {
+  color: #FFF;
+  font-size: 1.3em;
+}
+
+.about {
+  margin: 20px 0;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+}
+.about .about-l {
+  float: left;
+  width: 47%;
+}
+.about .about-l img {
+  width: 360px;
+  margin: 0 30px;
+}
+
+.posters {
+  width: 100%;
+}
+.posters img {
+  width: 100%;
+  background-size: cover;
+}
+.posters .item1 {
+  display: block;
+  background: url("/images/poster/poster1.jpg") no-repeat top center;
+  background-size: cover;
+}
+.posters .item2 {
+  background: url("/images/poster/poster2.jpg") no-repeat top center;
+  background-size: cover;
+}
+.posters .item3 {
+  background: url("/images/poster/poster3.jpg") no-repeat top center;
+  background-size: cover;
+}
+.posters figure {
+  margin: 0;
+  display: none;
+  height: 630px;
+}
+
+footer {
+  color: #9E9E9E;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.contact {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 780px;
+  padding: 50px 0;
+  text-align: left;
+}
+.contact .text {
+  padding-top: 70px;
+}
+.contact h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.contact p {
+  color: #6b6b6b;
+  font-size: 1.2em;
+}
+.contact a {
+  color: #16a6b6;
+}
+.contact .contact-info {
+  width: 380px;
+  float: left;
+}
+
+.pg-404 {
+  font: 16px "Imprima", Helvetica, Arial, sans-serif;
+}
+.pg-404 h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+.pg-404 a {
+  color: #16a6b6;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 799px) {
+  .about {
+    padding: 0;
+  }
+  .about .about-content {
+    padding-left: 0;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact .contact-info {
+    width: auto;
+  }
+}
