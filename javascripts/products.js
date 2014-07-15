@@ -1,20 +1,18 @@
-var $, toTop;
+var $;
 
 $ = jQuery;
-
-toTop = $('.to-top');
 
 $(document).ready(function() {
   $(window).scroll(function() {
     var top;
     top = $(this).scrollTop();
     if (top > 630 || top > $(window).height()) {
-      toTop.show();
+      $('#backtop').show();
     } else {
-      toTop.hide();
+      $('#backtop').hide();
     }
   });
-  toTop.click(function(e) {
+  $('#backtop').click(function(e) {
     e.preventDefault();
     $("body, html").stop().animate({
       scrollTop: 0
