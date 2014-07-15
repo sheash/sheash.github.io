@@ -10,11 +10,6 @@ $(document).ready(function() {
   stickyNav = function() {
     var scrollTop;
     scrollTop = $(window).scrollTop();
-    if (scrollTop > stickyNavTop) {
-      $(".sidebar .nav").addClass("sticky");
-    } else {
-      $(".sidebar .nav").removeClass("sticky");
-    }
     if (scrollTop > 500) {
       toTop.fadeIn();
     } else {
