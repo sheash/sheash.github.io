@@ -5,25 +5,19 @@ $ = jQuery;
 toTop = $('.to-top');
 
 $(document).ready(function() {
-  var stickyNav, stickyNavTop;
-  stickyNavTop = $(".sidebar .nav").offset().top;
-  stickyNav = function() {
-    var scrollTop;
-    scrollTop = $(window).scrollTop();
-    if (scrollTop > 500) {
-      toTop.fadeIn();
-    } else {
-      toTop.fadeOut();
-    }
-  };
-  stickyNav();
   $(window).scroll(function() {
-    stickyNav();
+    var top;
+    top = $(this).scrollTop();
+    if (top > 630 || top > $(window).height()) {
+      toTop.show();
+    } else {
+      toTop.hide();
+    }
   });
   toTop.click(function(e) {
     e.preventDefault();
-    $("body, html").animate({
+    $("body, html").stop().animate({
       scrollTop: 0
-    });
+    }, 300);
   });
 });
