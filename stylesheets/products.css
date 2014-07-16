@@ -24,7 +24,10 @@
 }
 
 .items {
+  position: relative;
   width: 280px;
+  max-width: 280px;
+  height: auto;
   float: left;
   margin: 10px;
 }
@@ -34,6 +37,35 @@
 }
 .items img:hover {
   opacity: 0.8;
+}
+
+.items {
+  background-color: #E4E4E4;
+}
+.items h4 {
+  position: absolute;
+  padding: 10px 15px;
+  color: #333;
+}
+.items h4 span {
+  display: block;
+}
+
+.items:hover {
+  background-color: #009ee0;
+}
+
+.right .github-fork-ribbon a {
+  width: 170px;
+}
+
+.github-fork-ribbon {
+  background: #333;
+}
+
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
+  top: 30px;
+  top: -25px \9;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {

@@ -7,7 +7,9 @@
     <!-- <meta name="viewport"> -->
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+    {% for css_name in page.csss %} 
+    {{ css_name }}
+    {% endfor %}
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/css/fontello.css">

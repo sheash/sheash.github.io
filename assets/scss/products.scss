@@ -25,7 +25,10 @@ $link-color: #16a6b6;
     margin-top: 20px;
 }
 .items {
+    position: relative;
     width: 280px;
+    max-width: 280px;
+    height: auto;
     float: left;
     margin: 10px;
     img {
@@ -35,6 +38,33 @@ $link-color: #16a6b6;
     img:hover {
         opacity: 0.8;
     }
+}
+
+.items {
+  background-color: #E4E4E4;
+  h4 {
+    position: absolute;
+    padding: 10px 15px;
+    color: #333;
+    span {
+      display: block;
+    }
+  }
+}
+.items:hover {
+  background-color: rgb(0, 158, 224);
+}
+.right {
+  .github-fork-ribbon a {
+    width: 170px;
+  }
+}
+.github-fork-ribbon {
+  background: #333;
+}
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
+  top: 30px;
+  top: -25px \9;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {

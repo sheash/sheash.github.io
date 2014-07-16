@@ -31,14 +31,21 @@ products:
         - fingers-jc806
         - fingers-jc807
     stylus-pen:
-        - animal-jc417
-        - animal-jc505
-        - animal-jc520
         - challeneger-jc605
         - challeneger-jc828
         - challeneger-jc828-m
         - stylus-jc601
         - swan-stylus-jc702
+    stylus-pen-png:
+        - file: habilis-stylus-jc417
+          name: Habilis Stylus
+          model: JC417
+        - file: linellae-stylus-jc505
+          name: Linellae Stylus
+          model: JC505
+        - file: animal-jc520
+          name: Animal
+          model: JC520
     semi-metal-pen:
         - silver-touch-jc8011
         - silver-touch-jc8013
