@@ -4,6 +4,7 @@
   "dependencies": {
     "jquery": "~1.11.0",
     "bootstrap": "~3.1.1",
+    "github-fork-ribbon-css": "*"
   },
   "devDependencies": {
   }
