@@ -1,14 +1,16 @@
 $ = jQuery
+toTop = $('.to-top')
+
 $(document).ready ->
   $(window).scroll ->
     top = $(this).scrollTop()
     if top > 630 or top > $(window).height()
-      $('#backtop').show()
+      toTop.show()
     else
-      $('#backtop').hide()
+      toTop.hide()
     return
 
-  $('#backtop').click (e) -> 
+  toTop.click (e) -> 
     e.preventDefault()
     $("body, html").stop().animate 
       scrollTop : 0
