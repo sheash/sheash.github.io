@@ -65,8 +65,8 @@ $link-color: #16a6b6;
 .github-fork-ribbon-wrapper.right .github-fork-ribbon {
   top: 30px;
 }
-.github-fork-ribbon-wrapper.right .github-fork-ribbon {
-  top: -25px\0;
+.github-fork-ribbon-wrapper.right .github-fork-ribbon\0 {
+  top: -25px;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
