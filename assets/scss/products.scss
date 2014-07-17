@@ -35,9 +35,6 @@ $link-color: #16a6b6;
         width: auto;
         max-width: 280px;
     }
-    img:hover {
-        opacity: 0.8;
-    }
 }
 
 .items {
@@ -46,8 +43,14 @@ $link-color: #16a6b6;
     position: absolute;
     padding: 10px 15px;
     color: #333;
+    font-family: 'Arial';
     span {
+      font-weight: bold;
       display: block;
+    }
+    span.model {
+      font-size: 0.8em;
+      font-weight: normal;
     }
   }
 }
@@ -58,9 +61,6 @@ $link-color: #16a6b6;
   .github-fork-ribbon a {
     width: 170px;
   }
-}
-.github-fork-ribbon {
-  background: #333;
 }
 .github-fork-ribbon-wrapper.right .github-fork-ribbon {
   top: 30px;

@@ -7,9 +7,21 @@ nav:
 
 {% for img in site.data.products.products.plastic-ball-pen %}
     <div class="items">
-        <a href="/products/plastic-ball-pen/{{ img }}.html">
-        <img class="img-responsive" src="/images/products/{{ img }}.jpg" alt="Responsive image">
+        <h4>
+            <span>{{img.name}}</span>
+            <span class="model">{{img.model}}</span>
+        </h4>
+        {% if img.new %}
+        <div class="github-fork-ribbon-wrapper right">
+            <div class="github-fork-ribbon">
+                <a href="/products/plastic-ball-pen/{{ img.file }}.html">NEW</a>
+            </div>
+        </div>
+        {% endif %}
+        <a href="/products/plastic-ball-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
         </a>
     </div>
+
 {% endfor %}
 

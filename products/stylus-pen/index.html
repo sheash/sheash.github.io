@@ -1,36 +1,24 @@
 ---
 layout: products
 title: Stylus pen
-csss:
-    <!-- START COPYING HERE -->
-    <link rel="stylesheet" href="/css/gh-fork-ribbon.css">
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" href="/css/gh-fork-ribbon.ie.css">
-    <![endif]-->
-    <!-- END COPYING HERE -->
 nav:
+    <a href="/products/stylus-pen/">Stylus Pen</a>
 ---
-{% for img in site.data.products.products.stylus-pen-png %}
-    <div class="items png">
+{% for img in site.data.products.products.stylus-pen %}
+    <div class="items">
         <h4>
             <span>{{img.name}}</span>
-            <span>{{img.model}}</span>
+            <span class="model">{{img.model}}</span>
         </h4>
+        {% if img.new %}
         <div class="github-fork-ribbon-wrapper right">
             <div class="github-fork-ribbon">
                 <a href="/products/stylus-pen/{{ img.file }}.html">NEW</a>
             </div>
         </div>
-        <a class="pic-link" href="/products/stylus-pen/{{ img.file }}.html">
+        {% endif %}
+        <a href="/products/stylus-pen/{{ img.file }}.html">
             <img src="/images/products/{{ img.file }}.png">
-        </a>
-    </div>
-{% endfor %}
-
-{% for img in site.data.products.products.stylus-pen %}
-    <div class="items">
-        <a href="/products/stylus-pen/{{ img }}.html">
-        <img src="/images/products/{{ img }}.jpg">
         </a>
     </div>
 {% endfor %}
