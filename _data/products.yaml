@@ -69,7 +69,7 @@ products:
           name: Fingers
           model: JC806
         - file: fingers-jc807
-          name: Fingers-807
+          name: Fingers
           model: JC807
         - file: challenger-stylus-jc605
           name: Challenger Stylus
