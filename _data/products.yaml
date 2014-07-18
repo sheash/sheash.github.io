@@ -8,6 +8,7 @@ products:
         - file: animal-jc520
           name: Animal
           model: JC520
+          new: 1
         - file: habilis-stylus-jc417
           name: Habilis Stylus
           model: JC417
@@ -182,7 +183,7 @@ products:
           name: Fingers
           model: JC806
         - file: fingers-jc807
-          name: Fingers-807
+          name: Fingers
           model: JC807
     gel-pen:
         - file: gel-pen-jc334
