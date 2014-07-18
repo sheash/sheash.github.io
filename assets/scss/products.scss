@@ -12,13 +12,19 @@ $link-color: #16a6b6;
 }
 
 .sidebar {
-    width: 165px;
-    .nav > li > a {
-        color: #aaaaaa;
-    }
-    .nav > li > a:hover {
-        color: #7A7A7A;
-    }
+  width: 15%;
+  float: left;
+  .nav > li > a {
+      color: #aaaaaa;
+  }
+  .nav > li > a:hover {
+      color: #7A7A7A;
+  }
+}
+
+.contents {
+  width: 85%;
+  float: right;
 }
 
 .products {
@@ -27,12 +33,14 @@ $link-color: #16a6b6;
 .items {
     position: relative;
     width: 280px;
+    height: 188px;
     max-width: 280px;
     height: auto;
     float: left;
     margin: 10px;
     img {
-        width: auto;
+        width: 280px;
+        height: 188px;
         max-width: 280px;
     }
 }
@@ -74,9 +82,9 @@ $link-color: #16a6b6;
 }
 
 .sticky {  
-    position: fixed;  
-    top: 0;  
-    border-top: 0;  
+  position: fixed;  
+  top: 0;  
+  border-top: 0;  
 }
 
 .item {

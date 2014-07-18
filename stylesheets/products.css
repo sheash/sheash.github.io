@@ -10,13 +10,19 @@
 }
 
 .sidebar {
-  width: 165px;
+  width: 15%;
+  float: left;
 }
 .sidebar .nav > li > a {
   color: #aaaaaa;
 }
 .sidebar .nav > li > a:hover {
   color: #7A7A7A;
+}
+
+.contents {
+  width: 85%;
+  float: right;
 }
 
 .products {
@@ -26,13 +32,15 @@
 .items {
   position: relative;
   width: 280px;
+  height: 188px;
   max-width: 280px;
   height: auto;
   float: left;
   margin: 10px;
 }
 .items img {
-  width: auto;
+  width: 280px;
+  height: 188px;
   max-width: 280px;
 }
 
