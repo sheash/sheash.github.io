@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's Meet At HK MEGA SHOW
+title: Let's meet at 2014 HongKong Mega Show
 date:   2014-09-01
 categories: news
 ---
@@ -9,6 +9,5 @@ Booth: 5B-B41
  
 Date: 20-23 October 2014
   
-ADD: Hongkong Conventions&Exhibition centre
-
+Address: Hongkong Conventions & Exhibition Centre
 
