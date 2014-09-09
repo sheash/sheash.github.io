@@ -144,6 +144,11 @@ footer {
   color: #aaaaaa;
 }
 
+@media only screen and (max-width: 990px) {
+  header .header-p {
+    display: none;
+  }
+}
 @media only screen and (max-width: 799px) {
   header {
     height: 115px;
@@ -152,9 +157,6 @@ footer {
     width: 25px;
     height: 4px;
     background-color: #000;
-  }
-  header .header-p {
-    display: none;
   }
   header .navbar-header {
     position: absolute;
