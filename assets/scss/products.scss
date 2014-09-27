@@ -81,10 +81,10 @@ $link-color: #16a6b6;
     background-color: #FFF;
 }
 
-.sticky {  
-  position: fixed;  
-  top: 0;  
-  border-top: 0;  
+.sticky {
+  position: fixed;
+  top: 0;
+  border-top: 0
 }
 
 .item {
@@ -121,8 +121,7 @@ $link-color: #16a6b6;
   bottom: 30px;
 }
 
-@media only screen 
-and (max-width : 799px) {
+@media only screen and (max-width : 799px) {
   div.products.container {
     padding-left: 0;
   }
@@ -133,3 +132,13 @@ and (max-width : 799px) {
     margin-left: 0;
   }
 }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  .items {
+    width: 240px;
+    img {
+      width: 240px;
+    }
+  }
+}
+

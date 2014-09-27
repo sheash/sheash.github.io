@@ -133,3 +133,11 @@
     margin-left: 0;
   }
 }
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+  .items {
+    width: 240px;
+  }
+  .items img {
+    width: 240px;
+  }
+}
