@@ -12,6 +12,7 @@
 .sidebar {
   width: 130px;
   float: left;
+  margin-left: 15px;
 }
 .sidebar .nav > li > a {
   color: #aaaaaa;
