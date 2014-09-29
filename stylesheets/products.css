@@ -15,6 +15,7 @@
 }
 .sidebar .nav > li > a {
   color: #aaaaaa;
+  padding: 6px 12px;
 }
 .sidebar .nav > li > a:hover {
   color: #7A7A7A;

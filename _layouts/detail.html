@@ -10,11 +10,13 @@ csss:
     <![endif]-->
     <!-- END COPYING HERE -->
 extra_js:
+    - /javascripts/lib/url.min.js
+    - /javascripts/lib/jquery.sticky.js
     - /javascripts/products.js
 ---
 <div class="products container">
     <div class="products-nav">
-        <a href="/"><i class="icon-home"></i></a> <p>></p> <a href="/products">Products</a> <p>></p> <a href="/products/{{page.pen_catalog/}}">{{page.catalog_name}}</a> <p>></p> <a href="/products/{{page.pen_catalog}}/{{page.file}}">{{ page.title }}</a> 
+        <a href="/"><i class="icon-home"></i></a> <p>></p> <a href="/products">Products</a> <p>></p> <a href="/products/{{page.pen_catalog/}}">{{page.catalog_name}}</a> <p>></p> <a href="/products/{{page.pen_catalog}}/{{page.file}}">{{ page.title }}</a>
     </div>
 
     <div class="sidebar">
@@ -46,5 +48,5 @@ extra_js:
       </div>
 </div>
 <div class="to-top">
-    <i class="icon-up"></i> 
+    <i class="icon-up"></i>
 </div>

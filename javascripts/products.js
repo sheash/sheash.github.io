@@ -1,10 +1,29 @@
-var $, toTop;
+var $, toTop, urlMap;
 
 $ = jQuery;
 
 toTop = $('.to-top');
 
+urlMap = {
+  'jc-exclusive': 0,
+  'plastic-ball-pen': 1,
+  'semi-metal-pen': 2,
+  'eco-pen': 3,
+  'stylus-pen': 4,
+  'muti-color-pen': 5,
+  'erasable-pen': 6,
+  'cartoon-pen': 7,
+  'novelty-pen': 8,
+  'gel-pen': 9
+};
+
 $(document).ready(function() {
+  var cpath;
+  cpath = urlMap[$.url('2')];
+  $('.sidebar ul li').eq(cpath).css('font-weight', 'Bold');
+  $(".nav.nav-stacked").sticky({
+    topSpacing: 0
+  });
   $(window).scroll(function() {
     var top;
     top = $(this).scrollTop();
