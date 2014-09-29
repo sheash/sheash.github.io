@@ -10,7 +10,7 @@
 }
 
 .sidebar {
-  width: 15%;
+  width: 130px;
   float: left;
 }
 .sidebar .nav > li > a {
@@ -21,7 +21,7 @@
 }
 
 .contents {
-  width: 85%;
+  width: 80%;
   float: right;
 }
 
@@ -120,6 +120,14 @@
   bottom: 30px;
 }
 
+@media only screen and (max-width: 991px) {
+  .items {
+    width: 268px;
+  }
+  .items img {
+    width: 268px;
+  }
+}
 @media only screen and (max-width: 767px) {
   div.products.container {
     padding-left: 0;
@@ -132,8 +140,7 @@
   .item {
     margin-left: 0;
   }
-}
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+
   .items {
     width: 240px;
   }

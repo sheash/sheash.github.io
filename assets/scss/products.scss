@@ -12,18 +12,18 @@ $link-color: #16a6b6;
 }
 
 .sidebar {
-  width: 15%;
+  width: 130px;
   float: left;
   .nav > li > a {
-      color: #aaaaaa;
+    color: #aaaaaa;
   }
   .nav > li > a:hover {
-      color: #7A7A7A;
+    color: #7A7A7A;
   }
 }
 
 .contents {
-  width: 85%;
+  width: 80%;
   float: right;
 }
 
@@ -121,6 +121,15 @@ $link-color: #16a6b6;
   bottom: 30px;
 }
 
+@media only screen and (max-width : 991px) {
+  .items {
+    width: 268px;
+    img {
+      width: 268px;
+    }
+  }
+}
+
 @media only screen and (max-width : 767px) {
   div.products.container {
     padding-left: 0;
@@ -131,9 +140,6 @@ $link-color: #16a6b6;
   .item {
     margin-left: 0;
   }
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
   .items {
     width: 240px;
     img {
