@@ -154,7 +154,7 @@ footer {
   color: #aaaaaa;
 }
 
-@media only screen 
+@media only screen
 and (max-width : 990px) {
   header{
     .header-p {
@@ -162,8 +162,7 @@ and (max-width : 990px) {
     }
   }
 }
-@media only screen 
-and (max-width : 799px) {
+@media only screen and (max-width : 767px) {
   header{
     height: 115px;
     .navbar-toggle .icon-bar {
