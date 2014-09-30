@@ -164,24 +164,24 @@ footer {
 .slick-next:before {
   color: #aaaaaa;
 }
- 
+
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-     
+
   line-height: 1em;
 }
 
@@ -240,19 +240,18 @@ footer {
   }
 }
 
-.icon-up:before { content: '\e800'; } /* '' */
-.icon-star:before { content: '\e801'; } /* '' */
-.icon-location:before { content: '\e802'; } /* '' */
-.icon-fax:before { content: '\e803'; } /* '' */
-.icon-phone:before { content: '\e804'; } /* '' */
-.icon-mail:before { content: '\e805'; } /* '' */
-.icon-star-empty:before { content: '\e806'; } /* '' */
-.icon-home:before { content: '\e807'; } /* '' */
-.icon-quote-left:before { content: '\e808'; } /* '' */
-.icon-quote-right:before { content: '\e809'; } /* '' */
-.icon-info:before { content: '\e80a'; } /* '' */
-.icon-ok:before { content: '\e80b'; } /* '' */
-.icon-circle-empty:before { content: '\e80c'; } /* '' */
-.icon-circle:before { content: '\e80d'; } /* '' */
-
+.icon-up:before { content: '\e800'; }
+.icon-star:before { content: '\e801'; }
+.icon-location:before { content: '\e802'; }
+.icon-fax:before { content: '\e803'; }
+.icon-phone:before { content: '\e804'; }
+.icon-mail:before { content: '\e805'; }
+.icon-star-empty:before { content: '\e806'; }
+.icon-home:before { content: '\e807'; }
+.icon-quote-left:before { content: '\e808'; }
+.icon-quote-right:before { content: '\e809'; }
+.icon-info:before { content: '\e80a'; }
+.icon-ok:before { content: '\e80b'; }
+.icon-circle-empty:before { content: '\e80c'; }
+.icon-circle:before { content: '\e80d'; }
 
