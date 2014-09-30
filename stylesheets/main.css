@@ -66,20 +66,41 @@ footer {
 
 .about {
   background-color: #FFF;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 .about .about-content {
-  padding-left: 100px;
+  position: relative;
 }
 .about .col-sm-6 {
   background-color: whitesmoke;
 }
+.about .image-bg {
+  background: rgba(0, 0, 0, 0.9);
+}
 .about img {
   width: 100%;
-  opacity: 0.85;
+  opacity: 0.7;
+}
+.about .contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFF;
+  padding: 8% 15% 0 15%;
 }
 .about p {
-  color: #333332;
+  color: #FFF;
+  font-size: 1.5em;
+  opacity: 0.85;
+}
+.about footer {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+.about footer p {
+  font-size: 14px;
+  opacity: 1;
 }
 
 .pg-404 {
@@ -168,9 +189,36 @@ footer {
   line-height: 1em;
 }
 
+@media only screen and (max-width: 1200px) {
+  .about .contents {
+    padding: 15px 12% 0 12%;
+  }
+  .about p {
+    font-size: 1.3em;
+  }
+}
 @media only screen and (max-width: 991px) {
   header .header-p {
     display: none;
+  }
+}
+@media only screen and (max-width: 926px) {
+  .about p {
+    margin: 0 0 5px;
+  }
+}
+@media only screen and (max-width: 894px) {
+  .about h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+  .about .contents {
+    padding: 10px 8% 0 8%;
+  }
+  .about p {
+    font-size: 1.2em;
+    margin: 0 0 3px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -191,7 +239,7 @@ footer {
     z-index: 10000;
     width: 100%;
     margin-top: 65px;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.4);
     opacity: 0.85;
   }
   header .container-fluid > .navbar-collapse {
@@ -203,11 +251,15 @@ footer {
     padding: 30px;
   }
 
-  .about {
-    padding: 0;
+  .about .contents {
+    position: static;
+    padding: 10% 15% 50px 15%;
   }
-  .about .about-content {
-    padding-left: 0;
+  .about p {
+    font-size: 1.2em;
+  }
+  .about footer {
+    left: 30%;
   }
 
   .contact {
@@ -228,6 +280,24 @@ footer {
   font-size: 13px !important;
 }
 
+@media only screen and (max-width: 480px) {
+  .about {
+    padding: 0;
+  }
+  .about .about-content {
+    padding-left: 0;
+  }
+  .about .contents {
+    position: static;
+    padding: 15px 15px 50px 15px;
+  }
+  .about p {
+    font-size: 1.2em;
+  }
+  .about footer {
+    left: 0;
+  }
+}
 .icon-up:before {
   content: '\e800';
 }

@@ -153,3 +153,15 @@ i.icon-home {
     width: 240px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .contents {
+    float: none;
+  }
+
+  .items {
+    width: 280px;
+  }
+  .items img {
+    width: 280px;
+  }
+}
