@@ -8,7 +8,7 @@ $link-color: #16a6b6;
     color: $link-color;
     text-decoration:none;
   }
-  margin: 10px 30px;
+  margin: 10px 10px;
 }
 
 .sidebar {
@@ -120,6 +120,10 @@ $link-color: #16a6b6;
   cursor: pointer;
   right: 30px;
   bottom: 30px;
+}
+
+i.icon-home {
+  font-size: 1.5em;
 }
 
 @media only screen and (max-width : 991px) {

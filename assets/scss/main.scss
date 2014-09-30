@@ -240,6 +240,10 @@ footer {
   }
 }
 
+.slick-dots li button:before {
+  font-size: 13px !important;
+}
+
 .icon-up:before { content: '\e800'; }
 .icon-star:before { content: '\e801'; }
 .icon-location:before { content: '\e802'; }

@@ -224,6 +224,10 @@ footer {
     display: none !important;
   }
 }
+.slick-dots li button:before {
+  font-size: 13px !important;
+}
+
 .icon-up:before {
   content: '\e800';
 }
