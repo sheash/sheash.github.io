@@ -10,9 +10,8 @@
     {% for css_name in page.csss %} 
     {{ css_name }}
     {% endfor %}
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/main.css">
-    <link rel="stylesheet" href="/css/fontello.css">
     {% for css_name in page.extra_css %} 
     <link rel="stylesheet" href="{{ css_name }}">
     {% endfor %}
