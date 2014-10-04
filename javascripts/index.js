@@ -3,10 +3,11 @@ var $;
 $ = jQuery;
 
 $(document).ready(function() {
-  return $('.slider').slick({
-    dots: true,
-    speed: 500,
-    autoplay: true,
-    arrows: false
+  return $(".rslides").responsiveSlides({
+    speed: 1000,
+    pager: true,
+    nav: true,
+    pauseControls: false,
+    namespace: "transparent-btns"
   });
 });

@@ -1,8 +1,9 @@
 $ = jQuery
 
 $(document).ready ->
-  $('.slider').slick
-    dots: true
-    speed: 500
-    autoplay: true
-    arrows: false
+  $(".rslides").responsiveSlides
+    speed: 1000
+    pager: true
+    nav: true
+    pauseControls: false
+    namespace: "transparent-btns"
