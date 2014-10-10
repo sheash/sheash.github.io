@@ -257,6 +257,24 @@ footer {
   line-height: 1em;
 }
 
+.mega-show {
+  position: fixed;
+  opacity: 0.9;
+  background-color: #00C1EE;
+  z-index: 9999;
+  width: 140px;
+  height: 100px;
+  bottom: 30px;
+  left: 30px;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.mega-show:hover {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 1200px) {
   .about .contents {
     padding: 15px 12% 0 12%;
