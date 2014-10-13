@@ -1,10 +1,9 @@
 ---
 layout: default
-extra_css:
-    - /css/slick.css
 extra_js:
     - /javascripts/lib/responsiveslides.min.js
-    - /javascripts/index.js
+scripts:
+    window.onload = slider;
 ---
 
 <ul class="rslides">
@@ -13,4 +12,15 @@ extra_js:
     <li><img src="/images/poster/poster3.jpg" alt=""></li>
 </ul>
 
+<script>
+    function slider(){
+        $(".rslides").responsiveSlides({
+            speed: 1000,
+            pager: true,
+            nav: true,
+            pauseControls: false,
+            namespace: "transparent-btns"
+        });
+    };
+</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-538599cb232943f5"></script>

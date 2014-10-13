@@ -13,11 +13,11 @@
       {% for js_name in page.extra_js %}
       <script type="text/javascript" src="{{ js_name }}"></script>
       {% endfor %}
-      {% for scripts in page.scripts %}
       <script>
-        {{ scripts}}
-      </script>
+      {% for scripts in page.scripts %}
+      {{ scripts}}
       {% endfor %}
+      </script>
 
     {% include footer.html %}
     <a href="/news/lets-meet-at-2014-hk-mega-show.html"><div class="mega-show">HK Mega Show Part I 20-23 October 2014 BOOTH: 5B-B41</div></a>
