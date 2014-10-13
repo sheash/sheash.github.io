@@ -184,17 +184,15 @@ footer {
     opacity: 0.7;
   }
   .contents {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
+    position: absolute;
+    top: 0;
+    left: 0;
     color: #FFF;
-    // width: 95%;
-    // padding: 90px 190px 0 190px;
-    padding: 8% 15% 0 15%;
+    padding: 10% 15% 0 15%;
   }
   p {
     color: #FFF;
-    font-size: 1.5em;
+    font-size: 2em;
     opacity: 0.85;
   }
   footer{
@@ -303,10 +301,10 @@ footer {
 @media only screen and (max-width : 1200px) {
   .about {
     .contents {
-      padding: 15px 12% 0 12%;
+      padding: 5% 12% 0 12%;
     }
     p {
-      font-size: 1.3em;
+      font-size: 1.7em;
     }
   }
 }
@@ -318,22 +316,13 @@ footer {
   }
 }
 
-@media only screen and (max-width : 926px) {
-  .about p { margin: 0 0 5px;}
-}
-
 @media only screen and (max-width : 894px) {
   .about {
-    h2 {
-      margin-top: 15px;
-      margin-bottom: 5px;
+    h1 {
       font-size: 25px;
     }
-    .contents {
-      padding: 10px 8% 0 8%;
-    }
     p {
-      font-size: 1.2em;
+      font-size: 1.5em;
       margin: 0 0 3px;
     }
   }

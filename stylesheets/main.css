@@ -170,11 +170,11 @@ footer {
   top: 0;
   left: 0;
   color: #FFF;
-  padding: 8% 15% 0 15%;
+  padding: 10% 15% 0 15%;
 }
 .about p {
   color: #FFF;
-  font-size: 1.5em;
+  font-size: 2em;
   opacity: 0.85;
 }
 .about footer {
@@ -277,10 +277,10 @@ footer {
 
 @media only screen and (max-width: 1200px) {
   .about .contents {
-    padding: 15px 12% 0 12%;
+    padding: 5% 12% 0 12%;
   }
   .about p {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -288,22 +288,12 @@ footer {
     display: none;
   }
 }
-@media only screen and (max-width: 926px) {
-  .about p {
-    margin: 0 0 5px;
-  }
-}
 @media only screen and (max-width: 894px) {
-  .about h2 {
-    margin-top: 15px;
-    margin-bottom: 5px;
+  .about h1 {
     font-size: 25px;
   }
-  .about .contents {
-    padding: 10px 8% 0 8%;
-  }
   .about p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 0 0 3px;
   }
 }
