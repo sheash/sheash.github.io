@@ -25,7 +25,7 @@ products:
           name: Linellae Stylus
           model: JC505S
           new: 1
-        - file: calabash-jc238s
+        - file: calabash-stylus-jc238s
           name: Calabash Stylus
           model: JC238S
           new: 1
@@ -182,7 +182,7 @@ products:
         - file: fingers-jc808
           name: Fingers
           model: JC808
-        - file: QR-pen-jc901
+        - file: qr-pen-jc901
           name: QR pen
           model: JC901
     gel-pen:
