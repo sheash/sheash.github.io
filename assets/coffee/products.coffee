@@ -7,7 +7,7 @@ urlMap =
   'semi-metal-pen': 2
   'eco-pen': 3
   'stylus-pen': 4
-  'muti-color-pen': 5
+  'mutifunctional-pen': 5
   'erasable-pen': 6
   'cartoon-pen': 7
   'novelty-pen': 8
