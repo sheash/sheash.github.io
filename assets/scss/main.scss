@@ -282,12 +282,15 @@ footer {
 }
 
 .mega-show {
+  font-family: 'Kalam', cursive;
+  font-size: 1.4em;
+  font-weight: bold;
   position: fixed;
-  opacity: 0.9;
-  background-color: #00C1EE;
+  opacity: 0.8;
+  background-color: #0099cc;
   z-index: 9999;
-  width: 140px;
-  height: 100px;
+  width: 181px;
+  height: 131px;
   bottom: 30px;
   left: 30px;
   color: #FFF;
