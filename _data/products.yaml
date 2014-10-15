@@ -122,7 +122,7 @@ products:
           model: JC814SC
         - file: animal-jc520s
           name: Animal
-          model: JC520
+          model: JC520S
         - file: habilis-stylus-jc417s
           name: Habilis Stylus
           model: JC417S
@@ -139,7 +139,7 @@ products:
           model: JC828s
         - file: swan-stylus-jc702s
           name: Swan Stylus
-          model: JC 702
+          model: JC702S
     semi-metal-pen:
         - file: silver-touch-jc8011
           name: Silver Touch

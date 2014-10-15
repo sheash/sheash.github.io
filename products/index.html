@@ -4,7 +4,7 @@ title: Products
 nav:
 ---
 
-{% for img in site.data.products.products.jc-exclusive %}
+{% for img in site.data.all.all-products %}
     <div class="items">
         <h4>
             <span>{{img.name}}</span>
@@ -17,9 +17,56 @@ nav:
             </div>
         </div>
         {% endif %}
+        {% if img.catalogy == "jc" %}
         <a href="/products/jc-exclusive/{{ img.file }}.html">
             <img src="/images/products/{{ img.file }}.png">
         </a>
+        {% endif %}
+        {% if img.catalogy == "plastic" %}
+        <a href="/products/plastic-ball-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "semi" %}
+        <a href="/products/semi-metal-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "eco" %}
+        <a href="/products/eco-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "stylus" %}
+        <a href="/products/stylus-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "mutifunctional" %}
+        <a href="/products/mutifunctional-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "erasable" %}
+        <a href="/products/erasable-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "cartoon" %}
+        <a href="/products/cartoon-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "novelty" %}
+        <a href="/products/novelty-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
+        {% if img.catalogy == "gel" %}
+        <a href="/products/gel-pen/{{ img.file }}.html">
+            <img src="/images/products/{{ img.file }}.png">
+        </a>
+        {% endif %}
     </div>
 {% endfor %}
 
