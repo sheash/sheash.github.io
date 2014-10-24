@@ -281,26 +281,6 @@ footer {
   line-height: 1em;
 }
 
-.mega-show {
-  font-family: 'Trebuchet MS';
-  font-size: 1.4em;
-  font-weight: bold;
-  position: fixed;
-  opacity: 0.8;
-  background-color: #0099cc;
-  z-index: 9999;
-  width: 186px;
-  height: 131px;
-  bottom: 30px;
-  left: 30px;
-  color: #FFF;
-  padding: 10px;
-  border-radius: 20px;
-}
-.mega-show:hover {
-  opacity: 1;
-}
-
 @media only screen and (max-width : 1200px) {
   .about {
     .contents {
