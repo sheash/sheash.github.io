@@ -13,6 +13,28 @@ body {
   color: #aaaaaa;
 }
 
+.wrap {
+  height: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.main {
+  padding-bottom: 50px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: -50px;
+  color: #9E9E9E;
+  text-align: center;
+  height: 50px;
+}
+footer p {
+  padding-top: 20px;
+}
+
 header {
   height: 130px;
 }
@@ -142,12 +164,6 @@ header .navbar-nav > li > a:hover {
   width: 80%;
 }
 
-footer {
-  color: #9E9E9E;
-  text-align: center;
-  margin: 50px 0 0 0;
-}
-
 .about {
   background-color: #FFF;
   padding: 20px 0 0 0;
@@ -185,6 +201,7 @@ footer {
 .about footer p {
   font-size: 14px;
   opacity: 1;
+  padding-top: 0;
 }
 
 .pg-404 {

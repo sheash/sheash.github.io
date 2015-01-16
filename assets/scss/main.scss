@@ -23,6 +23,28 @@ body {
     color: #aaaaaa;
 }
 
+.wrap {
+  height: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.main {
+  padding-bottom: 50px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: -50px;
+  color: #9E9E9E;
+  text-align: center;
+  height: 50px;
+  p {
+    padding-top: 20px;
+  }
+}
+
 header {
     height: 130px;
     .container {
@@ -161,12 +183,6 @@ header {
   }
 }
 
-footer {
-  color: #9E9E9E;
-  text-align: center;
-  margin: 50px 0 0 0;
-}
-
 .about {
   background-color: #FFF;
   padding: 20px 0 0 0;
@@ -202,6 +218,7 @@ footer {
     p {
       font-size: 14px;
       opacity: 1;
+      padding-top: 0;
     }
   }
 }
