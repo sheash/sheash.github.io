@@ -4,6 +4,7 @@ var coffee = require('gulp-coffee');
 var sass = require('gulp-ruby-sass');
 var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
@@ -23,6 +24,13 @@ gulp.task('scripts', function() {
     .pipe(coffee({bare: true}))
     // .pipe(uglify())
     .pipe(gulp.dest('javascripts/'));
+});
+
+gulp.task('concat', function() {
+  gulp.src(['javascripts/lib/url.min.js', 'javascripts/lib/jquery.sticky.js', 'javascripts/products.js'])
+    .pipe(uglify())
+    .pipe(concat('libconcat.js'))
+    .pipe(gulp.dest('javascripts/lib/'))
 });
 
 gulp.task('images', function() {
