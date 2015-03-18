@@ -13,8 +13,7 @@ var paths = {
 };
 
 gulp.task('scss', function() {
-  return gulp.src(paths.css)
-    .pipe(sass({ style: 'expanded', sourcemap: 'none' }))
+  return sass('assets/scss/', { style: 'expanded', sourcemap: false })
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulp.dest('stylesheets'))
 });

@@ -257,6 +257,17 @@ header .navbar-nav > li > a:hover {
   text-decoration: none;
 }
 
+.fair-area {
+  background: rgba(0, 0, 0, 0.7);
+  font-family: Baumans;
+  color: #FFF;
+  z-index: 100;
+  bottom: 10px;
+  position: fixed;
+  width: 228px;
+  border-radius: 0 10px 10px 0;
+}
+
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
