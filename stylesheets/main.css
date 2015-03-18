@@ -266,6 +266,7 @@ header .navbar-nav > li > a:hover {
   position: fixed;
   width: 228px;
   border-radius: 0 10px 10px 0;
+  left: -140px;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
