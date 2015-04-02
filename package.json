@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "gulp": "^3.8.11",
     "gulp-autoprefixer": "*",
     "gulp-coffee": "*",
     "gulp-concat": "^2.4.3",
