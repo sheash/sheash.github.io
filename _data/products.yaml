@@ -40,8 +40,8 @@ products:
         - file: big-pen-jc403
           name: Big Pen
           model: JC403
-        - file: bunny-jc707
-          name: Bunny
+        - file: hawkeye-jc707
+          name: Hawkeye
           model: JC707
         - file: trangle-jc8012
           name: Trangle
@@ -101,8 +101,8 @@ products:
         - file: dots-jc812
           name: Dots
           model: JC812
-        - file: bunny-jc707
-          name: Bunny
+        - file: hawkeye-jc707
+          name: Hawkeye
           model: JC707
         - file: trangle-jc8012
           name: Trangle

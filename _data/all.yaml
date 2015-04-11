@@ -49,7 +49,7 @@ all-products:
       name: Big Pen
       model: JC403
       catalogy: jc
-    - file: bunny-jc707
+    - file: hawkeye-jc707
       name: Bunny
       model: JC707
       catalogy: jc
