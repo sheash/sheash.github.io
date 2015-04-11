@@ -50,7 +50,7 @@ all-products:
       model: JC403
       catalogy: jc
     - file: hawkeye-jc707
-      name: Bunny
+      name: Hawkeye
       model: JC707
       catalogy: jc
     - file: trangle-jc8012
