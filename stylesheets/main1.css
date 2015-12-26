@@ -21,91 +21,45 @@ a {
 }
 
 header {
-  position: absolute;
-  top: 0;
-  height: 70px;
-  width: 100%;
-  background: #ff6633;
+  position: relative;
+  padding: 35px 0 25px 55px;
+  height: 80px;
+  background: #fff;
+  box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
 }
-header nav {
-  height: 70px;
-  margin: 0 auto;
-  width: 80%;
+header .navbar-brand img {
+  width: 180px;
 }
-header nav .logo {
+header .justshare {
+  width: 150px;
+  margin: 40px 15px;
+}
+header .logo {
   float: left;
   height: 65px;
   width: 180px;
-  background: url("/images/trlogo-s.png") no-repeat center;
-}
-header nav ul {
-  float: right;
-  list-style: none;
-  margin-top: 30px;
-}
-header nav ul li {
-  float: left;
-  margin: 0 15px;
-}
-header a {
-  color: #FFF;
-  font-size: 1.3em;
+  background: url("/images/color-logo.png") no-repeat center;
+  background-size: 100%;
 }
 
-.about {
-  margin: 20px 0;
-  height: 400px;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 80%;
-}
-.about .about-l {
-  float: left;
-  width: 47%;
-}
-.about .about-l img {
-  width: 360px;
-  margin: 0 30px;
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
 }
 
 .posters {
-  width: 100%;
-}
-.posters img {
-  width: 100%;
-  background-size: cover;
-}
-.posters .item1 {
-  display: block;
-  background: url("/images/poster/poster1.jpg") no-repeat top center;
-  background-size: cover;
-}
-.posters .item2 {
-  background: url("/images/poster/poster2.jpg") no-repeat top center;
-  background-size: cover;
-}
-.posters .item3 {
-  background: url("/images/poster/poster3.jpg") no-repeat top center;
-  background-size: cover;
-}
-.posters figure {
-  margin: 0;
-  display: none;
-  height: 630px;
-}
-
-footer {
-  color: #9E9E9E;
-  text-align: center;
-  margin: 50px 0 0 0;
+  box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
 .contact {
+  display: block;
+  position: relative;
+  color: #9E9E9E;
   margin: 0 auto;
-  margin-top: 50px;
   max-width: 780px;
-  padding: 50px 0;
+  padding: 50px 0 60px;
   text-align: left;
+  height: 100%;
 }
 .contact .text {
   padding-top: 70px;
@@ -124,6 +78,12 @@ footer {
 .contact .contact-info {
   width: 380px;
   float: left;
+}
+
+footer {
+  display: block;
+  position: relative;
+  text-align: center;
 }
 
 .pg-404 {
